@@ -190,13 +190,14 @@
   height: auto;
   overflow: hidden;
 }
-.footer .common-collapse-content .h1 {
+.footer .common-collapse-content h1 {
   font-size: 28px;
   color: #fff;
   text-transform: uppercase;
+  margin: 14px 0px;
 }
 @media only screen and (max-width: 991px) {
-  .footer .common-collapse-content .h1 {
+  .footer .common-collapse-content h1 {
     font-size: 24px;
   }
 }

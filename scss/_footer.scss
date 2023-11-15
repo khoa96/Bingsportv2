@@ -200,10 +200,11 @@
     height: auto;
     overflow: hidden;
 
-    .h1 {
+    h1 {
       font-size: 28px;
       color: #fff;
       text-transform: uppercase;
+      margin: 14px 0px;
       @include mq(max_md) {
         font-size: 24px;
       }

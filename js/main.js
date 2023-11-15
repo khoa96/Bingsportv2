@@ -27,14 +27,25 @@ $(".popup").on("click", function (event) {
   }
 });
 
-$(".btn-sign-up").on("click", function () {
+$(".btn-register-membership").on("click", function () {
   $(".popup-sign-in-content").hide();
   $(".popup-sign-up-content").show();
+	$(".popup-forgot-password").hide()
   $(".popup").addClass("popup--show");
 });
 
 $(".btn-login").on("click", function () {
   $(".popup-sign-in-content").show();
   $(".popup-sign-up-content").hide();
+	$(".popup-forgot-password").hide();
   $(".popup").addClass("popup--show");
 });
+
+
+$(".btn-forgot-password").on('click', function(event) {
+event.preventDefault();
+ $(".popup-sign-in-content").hide();
+ $(".popup-sign-up-content").hide();
+ $(".popup-forgot-password").show();
+ $(".popup").addClass("popup--show");
+})

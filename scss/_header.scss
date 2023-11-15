@@ -137,7 +137,7 @@
     color: #f91e4e;
     cursor: pointer;
     padding: 5px 14px;
-    margin-left: 24px;
+    margin-left: 16px;
     width: fit-content;
     height: fit-content;
     background-color: transparent;
@@ -264,7 +264,7 @@
   position: relative;
   max-width: 464px;
   min-width: 464px;
-  background: #333333;
+  background: #1e293b;;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -278,7 +278,7 @@
 }
 
 .popup--show {
-  z-index: 100;
+  z-index:99999999999;
   opacity: 1;
 }
 
@@ -291,6 +291,7 @@
   flex-direction: column;
 }
 
+.popup-forgot-password,
 .popup-sign-in-content,
 .popup-sign-up-content {
   width: 100%;
@@ -372,9 +373,8 @@
 .remember-block-wrapper {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  margin-bottom: 16px;
 
   .remember-block {
     label {
@@ -395,7 +395,7 @@
       border: 1px solid #fff;
       border-radius: 4px;
       margin-right: 8px;
-      accent-color: #009a5f;
+      accent-color: #f91e4e;
       cursor: pointer;
     }
   }
@@ -407,22 +407,75 @@
     line-height: 21px;
     /* identical to box height */
 
-    /* #009A5F */
+    /* #f91e4e */
 
-    color: #009a5f;
+    color: #f91e4e;
     text-decoration: none;
   }
 }
 
+.login-with-apple-account{
+  display: flex;
+  max-width: 375px;
+  min-width: 375px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  font-size: 14px;
+  max-height: max-content;
+  padding: 8px 0px;
+  border-radius: 10px;
+  max-height: 50px;
+
+  svg {
+    width: 100%;
+    max-height: 50px;
+  }
+
+  @include mq(max_md) {
+    max-width: 100%;
+  }
+}
+
+.btn-register-membership {
+  margin-top: 24px;
+  color: #f91e4e;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+    &:focus {
+      outline: none
+    };
+}
+
+.btn-text-login {
+  padding: 0 !important;
+  border: none !important;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  background: transparent !important;
+  color: #f91e4e;
+    cursor: pointer;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 14px;;
+}
+
 .btn-authen-wrapper {
   width: 100%;
-  margin-bottom: 24px;
+  margin: 24px 0px;
 
   .btn-authen {
     width: 100%;
     display: block;
     text-align: center;
-    background: #009a5f;
+    background: #f91e4e;
     border-radius: 8px;
     padding: 10px 0px;
     font-family: "Poppins";
@@ -471,9 +524,9 @@
     line-height: 21px;
     /* identical to box height */
 
-    /* #009A5F */
+    /* #f91e4e */
 
-    color: #009a5f;
+    color: #f91e4e;
     text-decoration: none;
   }
 }

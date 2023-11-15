@@ -123,138 +123,136 @@
 <!-- /END .offcanvas -->
 <!-- /.main-header -->
 
- <!-- =========START POPUP SIGN IN AND SIGN UP========= -->
-  <div class="popup">
-    <div class="popup__body">
-      <div class="popup__close">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g opacity="0.6" clip-path="url(#clip0_403_4284)">
-            <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </g>
-          <defs>
-            <clipPath id="clip0_403_4284">
-              <rect width="24" height="24" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-      </div>
-      <div class="popup-content">
-        <div class="popup-sign-in-content">
-          <h3 class="authen-title">Login</h3>
-          <div class="authen-form-wrapper">
-            <div class="form-control">
-              <label class="label">Your Email
-                <input type="text" name="email" value="" placeholder="Enter your email" autocomplete="off" />
-              </label>
+<!-- =========START POPUP SIGN IN AND SIGN UP  FORGOT PASSWORD========= -->
+<div class="popup">
+	<div class="popup__body">
+		<div class="popup__close">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g opacity="0.6" clip-path="url(#clip0_403_4284)">
+					<path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+				</g>
+				<defs>
+					<clipPath id="clip0_403_4284">
+						<rect width="24" height="24" fill="white" />
+					</clipPath>
+				</defs>
+			</svg>
+		</div>
+		<div class="popup-content">
+			<div class="popup-sign-in-content">
+				<h3 class="authen-title">Login</h3>
+				<div class="authen-form-wrapper">
+					<div class="form-control">
+						<label class="label">Your Email
+							<input type="text" name="email" value="" placeholder="Enter your email" autocomplete="off" />
+						</label>
 
-            </div>
-            <div class="form-control">
-              <label class="label">Password
-                <input type="password" name="password" value="" placeholder="Enter your password" autocomplete="off" />
-              </label>
+					</div>
+					<div class="form-control">
+						<label class="label">Password
+							<input type="password" name="password" value="" placeholder="Enter your password" autocomplete="off" />
+						</label>
 
-            </div>
-            <div class="remember-block-wrapper">
-              <div class="remember-block">
-                <label>
-                  <input type="checkbox" name="" value="">
-                  Remember me
-                </label>
-              </div>
-              <div class="forgot-password">
-                <a href="#" class="btn-forgot-password">Forgot password?</a>
-              </div>
-            </div>
-          </div>
+					</div>
+					<div class="remember-block-wrapper">
+						<div class="forgot-password">
+							<a href="#" class="btn-forgot-password">Forgot password?</a>
+						</div>
+					</div>
+				</div>
 
-          <div class="btn-authen-wrapper">
-            <button class="btn-authen">Sign In</button>
-          </div>
-          <div class="viva-login-wrapper">
-            <ul class="list-viva">
-              <li class="viva-item">
-                <a href="#">
-                  <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="52" height="52" rx="26" fill="white" />
-                    <g clip-path="url(#clip0_403_4287)">
-                      <path
-                        d="M25.9997 36.5418C31.8217 36.5418 36.5413 31.8222 36.5413 26.0002C36.5413 20.1782 31.8217 15.4585 25.9997 15.4585C20.1777 15.4585 15.458 20.1782 15.458 26.0002C15.458 31.8222 20.1777 36.5418 25.9997 36.5418Z"
-                        fill="#1877F2" />
-                      <path
-                        d="M30.1032 29.0472L30.5707 26.0002H27.6469V24.0229C27.6469 23.1892 28.0553 22.3766 29.3648 22.3766H30.6939V19.7824C29.9135 19.6561 29.1249 19.5872 28.3344 19.5762C25.9264 19.5762 24.3524 21.0355 24.3524 23.6778V26.0002H21.6758V29.0472H24.3524V36.4135C25.4439 36.5846 26.5554 36.5846 27.6469 36.4135V29.0472H30.1032Z"
-                        fill="white" />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_403_4287">
-                        <rect width="22" height="22" fill="white" transform="translate(15 15)" />
-                      </clipPath>
-                    </defs>
-                  </svg>
+				<div class="btn-authen-wrapper">
+					<button class="btn-authen">Sign In</button>
+				</div>
+				<div class="viva-login-wrapper">
+					<ul class="list-viva">
+						<li class="viva-item">
+							<a href="#">
+								<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect width="52" height="52" rx="26" fill="white" />
+									<path
+										d="M26.4976 19.7947C27.9552 19.7938 29.366 20.3089 30.4802 21.2487L33.601 18.2768C32.403 17.1722 30.964 16.3619 29.3983 15.9105C27.8325 15.459 26.1831 15.3787 24.5809 15.6759C22.9787 15.9731 21.4678 16.6396 20.1681 17.6227C18.8685 18.6057 17.8158 19.8781 17.0938 21.3389L20.612 24.0507C21.0223 22.8134 21.8116 21.7366 22.8679 20.9727C23.9242 20.2089 25.1941 19.7968 26.4976 19.7947Z"
+										fill="#D94F3D" />
+									<path
+										d="M20.2946 25.9981C20.2955 25.3361 20.4028 24.6786 20.6125 24.0507L17.0942 21.3389C16.3745 22.7866 16 24.3814 16 25.9981C16 27.6148 16.3745 29.2096 17.0942 30.6573L20.6125 27.9455C20.4028 27.3176 20.2955 26.6601 20.2946 25.9981Z"
+										fill="#F2C042" />
+									<path
+										d="M36.5668 24.0894H26.5459V28.384H32.2244C31.8866 29.5983 31.1126 30.6453 30.0508 31.3244L33.5419 34.0157C35.7727 32.0135 37.0835 28.7576 36.5668 24.0894Z"
+										fill="#5085ED" />
+									<path
+										d="M30.0488 31.3243C28.9699 31.9418 27.7399 32.2455 26.4976 32.2013C25.1941 32.1993 23.9242 31.7871 22.8679 31.0233C21.8116 30.2594 21.0223 29.1826 20.612 27.9453L17.0938 30.6571C17.9628 32.4089 19.3033 33.8835 20.9646 34.915C22.626 35.9465 24.5421 36.494 26.4976 36.496C29.0708 36.5659 31.5789 35.6821 33.5399 34.0146L30.0488 31.3243Z"
+										fill="#57A75C" />
+								</svg>
+							</a>
+						</li>
+					</ul>
 
-                </a>
-              </li>
+					<div class="login-with-apple-account">
+						<svg xmlns="http://www.w3.org/2000/svg" style="pointer-events: none; overflow: visible;" width="100%"
+							height="100%">
+							<g>
+								<svg xmlns="http://www.w3.org/2000/svg" style="overflow: visible;" width="100%" height="50%" y="25%"
+									viewBox="0 -11 111.046875 14" fill="#fff">
+									<defs>
+										<style>
+											@font-face {
+												font-family: "applied-button-font-0";
+												src: url(data:application/x-font-woff;charset=utf-8;base64,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) format("woff")
+											}
+										</style>
+									</defs>
+									<text font-size="12px" textLength="111.046875" font-family="applied-button-font-0"
+										direction="ltr"> Sign in with Apple</text>
+								</svg>
+							</g>
+						</svg>
+					</div>
+					<button class="btn-register-membership">Register a new membership</button>
+				</div>
+			</div>
+			<div class="popup-sign-up-content">
+				<h3 class="authen-title">Sign Up</h3>
+				<div class="authen-form-wrapper">
+					<div class="form-control">
+						<label class="label">Email
+							<input type="text" name="email" value="" placeholder="Enter your email" autocomplete="off" />
+						</label>
+					</div>
+					<div class="form-control">
+						<label class="label">Username
+							<input type="text" name="email" value="" placeholder="Enter username" autocomplete="off" />
+						</label>
 
-              <li class="viva-item">
-                <a href="#">
+					</div>
+					<div class="form-control">
+						<label class="label">Password
+							<input type="password" name="password" value="" placeholder="Enter your password" autocomplete="off" />
+						</label>
 
-                  <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="52" height="52" rx="26" fill="white" />
-                    <path
-                      d="M26.4976 19.7947C27.9552 19.7938 29.366 20.3089 30.4802 21.2487L33.601 18.2768C32.403 17.1722 30.964 16.3619 29.3983 15.9105C27.8325 15.459 26.1831 15.3787 24.5809 15.6759C22.9787 15.9731 21.4678 16.6396 20.1681 17.6227C18.8685 18.6057 17.8158 19.8781 17.0938 21.3389L20.612 24.0507C21.0223 22.8134 21.8116 21.7366 22.8679 20.9727C23.9242 20.2089 25.1941 19.7968 26.4976 19.7947Z"
-                      fill="#D94F3D" />
-                    <path
-                      d="M20.2946 25.9981C20.2955 25.3361 20.4028 24.6786 20.6125 24.0507L17.0942 21.3389C16.3745 22.7866 16 24.3814 16 25.9981C16 27.6148 16.3745 29.2096 17.0942 30.6573L20.6125 27.9455C20.4028 27.3176 20.2955 26.6601 20.2946 25.9981Z"
-                      fill="#F2C042" />
-                    <path
-                      d="M36.5668 24.0894H26.5459V28.384H32.2244C31.8866 29.5983 31.1126 30.6453 30.0508 31.3244L33.5419 34.0157C35.7727 32.0135 37.0835 28.7576 36.5668 24.0894Z"
-                      fill="#5085ED" />
-                    <path
-                      d="M30.0488 31.3243C28.9699 31.9418 27.7399 32.2455 26.4976 32.2013C25.1941 32.1993 23.9242 31.7871 22.8679 31.0233C21.8116 30.2594 21.0223 29.1826 20.612 27.9453L17.0938 30.6571C17.9628 32.4089 19.3033 33.8835 20.9646 34.915C22.626 35.9465 24.5421 36.494 26.4976 36.496C29.0708 36.5659 31.5789 35.6821 33.5399 34.0146L30.0488 31.3243Z"
-                      fill="#57A75C" />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-            <a href="#" class="btn-register">Register a new membership</a>
-          </div>
-        </div>
-        <div class="popup-sign-up-content">
-          <h3 class="authen-title">Sign Up</h3>
-          <div class="authen-form-wrapper">
-            <div class="form-control">
-              <label class="label">Email
-                <input type="text" name="email" value="" placeholder="Enter your email" autocomplete="off" />
-              </label>
+					</div>
+				</div>
+				<div class="btn-authen-wrapper mb-0">
+					<button class="btn-authen">Sign up</button>
+				</div>
+				<button class="btn-login btn-text-login">Login</button>
+			</div>
 
-            </div>
-            <div class="form-control">
-              <label class="label">Username
-                <input type="text" name="email" value="" placeholder="Enter username" autocomplete="off" />
-              </label>
-
-            </div>
-            <div class="form-control">
-              <label class="label">Password
-                <input type="password" name="password" value="" placeholder="Enter your password" autocomplete="off" />
-              </label>
-
-            </div>
-            <div class="remember-block-wrapper">
-              <div class="remember-block">
-                <label>
-                  <input type="checkbox" name="" value="">
-                  I am over 18 and have read the T&Cs and privacy policy
-                </label>
-              </div>
-
-            </div>
-          </div>
-          <div class="btn-authen-wrapper mb-0 ">
-            <button class="btn-authen">Sign up</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- =========END POPUP SIGN IN AND SIGN UP========= -->
+			<div class="popup-forgot-password">
+				<h3 class="authen-title">Forgot password</h3>
+				<div class="authen-form-wrapper">
+					<div class="form-control">
+						<label class="label">Email
+							<input type="text" name="email" value="" placeholder="Enter your email" autocomplete="off" />
+						</label>
+					</div>
+				</div>
+				<div class="btn-authen-wrapper mb-0">
+					<button class="btn-authen">Sign up</button>
+				</div>
+				<button class="btn-login btn-text-login">Login</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- =========END POPUP SIGN IN AND SIGN UP AND FORGOT PASSWORD========= -->
