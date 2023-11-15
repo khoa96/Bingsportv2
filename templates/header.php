@@ -106,7 +106,7 @@
 		<!-- MENU FOR MOBILE -->
 		<ul class="menu-for-mobile">
 			<div class="btn-login-wrapper">
-				<button class="btn-login-for-mobile">login</button>
+				<button class="btn-login btn-login-for-mobile">Login</button>
 			</div>
 			<li><a href="#">live sport</a></li>
 			<li><a href="#">Live tv</a></li>
@@ -122,3 +122,139 @@
 </div>
 <!-- /END .offcanvas -->
 <!-- /.main-header -->
+
+ <!-- =========START POPUP SIGN IN AND SIGN UP========= -->
+  <div class="popup">
+    <div class="popup__body">
+      <div class="popup__close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.6" clip-path="url(#clip0_403_4284)">
+            <path d="M18 6L6 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </g>
+          <defs>
+            <clipPath id="clip0_403_4284">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="popup-content">
+        <div class="popup-sign-in-content">
+          <h3 class="authen-title">Login</h3>
+          <div class="authen-form-wrapper">
+            <div class="form-control">
+              <label class="label">Your Email
+                <input type="text" name="email" value="" placeholder="Enter your email" autocomplete="off" />
+              </label>
+
+            </div>
+            <div class="form-control">
+              <label class="label">Password
+                <input type="password" name="password" value="" placeholder="Enter your password" autocomplete="off" />
+              </label>
+
+            </div>
+            <div class="remember-block-wrapper">
+              <div class="remember-block">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  Remember me
+                </label>
+              </div>
+              <div class="forgot-password">
+                <a href="#" class="btn-forgot-password">Forgot password?</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-authen-wrapper">
+            <button class="btn-authen">Sign In</button>
+          </div>
+          <div class="viva-login-wrapper">
+            <ul class="list-viva">
+              <li class="viva-item">
+                <a href="#">
+                  <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="52" height="52" rx="26" fill="white" />
+                    <g clip-path="url(#clip0_403_4287)">
+                      <path
+                        d="M25.9997 36.5418C31.8217 36.5418 36.5413 31.8222 36.5413 26.0002C36.5413 20.1782 31.8217 15.4585 25.9997 15.4585C20.1777 15.4585 15.458 20.1782 15.458 26.0002C15.458 31.8222 20.1777 36.5418 25.9997 36.5418Z"
+                        fill="#1877F2" />
+                      <path
+                        d="M30.1032 29.0472L30.5707 26.0002H27.6469V24.0229C27.6469 23.1892 28.0553 22.3766 29.3648 22.3766H30.6939V19.7824C29.9135 19.6561 29.1249 19.5872 28.3344 19.5762C25.9264 19.5762 24.3524 21.0355 24.3524 23.6778V26.0002H21.6758V29.0472H24.3524V36.4135C25.4439 36.5846 26.5554 36.5846 27.6469 36.4135V29.0472H30.1032Z"
+                        fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_403_4287">
+                        <rect width="22" height="22" fill="white" transform="translate(15 15)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                </a>
+              </li>
+
+              <li class="viva-item">
+                <a href="#">
+
+                  <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="52" height="52" rx="26" fill="white" />
+                    <path
+                      d="M26.4976 19.7947C27.9552 19.7938 29.366 20.3089 30.4802 21.2487L33.601 18.2768C32.403 17.1722 30.964 16.3619 29.3983 15.9105C27.8325 15.459 26.1831 15.3787 24.5809 15.6759C22.9787 15.9731 21.4678 16.6396 20.1681 17.6227C18.8685 18.6057 17.8158 19.8781 17.0938 21.3389L20.612 24.0507C21.0223 22.8134 21.8116 21.7366 22.8679 20.9727C23.9242 20.2089 25.1941 19.7968 26.4976 19.7947Z"
+                      fill="#D94F3D" />
+                    <path
+                      d="M20.2946 25.9981C20.2955 25.3361 20.4028 24.6786 20.6125 24.0507L17.0942 21.3389C16.3745 22.7866 16 24.3814 16 25.9981C16 27.6148 16.3745 29.2096 17.0942 30.6573L20.6125 27.9455C20.4028 27.3176 20.2955 26.6601 20.2946 25.9981Z"
+                      fill="#F2C042" />
+                    <path
+                      d="M36.5668 24.0894H26.5459V28.384H32.2244C31.8866 29.5983 31.1126 30.6453 30.0508 31.3244L33.5419 34.0157C35.7727 32.0135 37.0835 28.7576 36.5668 24.0894Z"
+                      fill="#5085ED" />
+                    <path
+                      d="M30.0488 31.3243C28.9699 31.9418 27.7399 32.2455 26.4976 32.2013C25.1941 32.1993 23.9242 31.7871 22.8679 31.0233C21.8116 30.2594 21.0223 29.1826 20.612 27.9453L17.0938 30.6571C17.9628 32.4089 19.3033 33.8835 20.9646 34.915C22.626 35.9465 24.5421 36.494 26.4976 36.496C29.0708 36.5659 31.5789 35.6821 33.5399 34.0146L30.0488 31.3243Z"
+                      fill="#57A75C" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <a href="#" class="btn-register">Register a new membership</a>
+          </div>
+        </div>
+        <div class="popup-sign-up-content">
+          <h3 class="authen-title">Sign Up</h3>
+          <div class="authen-form-wrapper">
+            <div class="form-control">
+              <label class="label">Email
+                <input type="text" name="email" value="" placeholder="Enter your email" autocomplete="off" />
+              </label>
+
+            </div>
+            <div class="form-control">
+              <label class="label">Username
+                <input type="text" name="email" value="" placeholder="Enter username" autocomplete="off" />
+              </label>
+
+            </div>
+            <div class="form-control">
+              <label class="label">Password
+                <input type="password" name="password" value="" placeholder="Enter your password" autocomplete="off" />
+              </label>
+
+            </div>
+            <div class="remember-block-wrapper">
+              <div class="remember-block">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  I am over 18 and have read the T&Cs and privacy policy
+                </label>
+              </div>
+
+            </div>
+          </div>
+          <div class="btn-authen-wrapper mb-0 ">
+            <button class="btn-authen">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- =========END POPUP SIGN IN AND SIGN UP========= -->

@@ -221,3 +221,228 @@
   }
 }
 
+.popup {
+  position: fixed;
+  z-index: -100;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.popup__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 991px) {
+  .popup__close {
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.popup__body {
+  position: relative;
+  max-width: 464px;
+  min-width: 464px;
+  background: #333333;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .popup__body {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 12px;
+  }
+}
+
+.popup--show {
+  z-index: 100;
+  opacity: 1;
+}
+
+.popup-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popup-sign-in-content,
+.popup-sign-up-content {
+  width: 100%;
+}
+
+.authen-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.authen-form-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.authen-form-wrapper .form-control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: none !important;
+  background-color: transparent !important;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.authen-form-wrapper .form-control:last-of-type {
+  margin-bottom: 0;
+}
+.authen-form-wrapper .form-control .label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #ffffff;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.authen-form-wrapper .form-control input {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 16px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.authen-form-wrapper .form-control input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  font-family: "Poppins";
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.remember-block-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.remember-block-wrapper .remember-block label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.remember-block-wrapper .remember-block input {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  margin-right: 8px;
+  accent-color: #009a5f;
+  cursor: pointer;
+}
+.remember-block-wrapper .btn-forgot-password {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  /* #009A5F */
+  color: #009a5f;
+  text-decoration: none;
+}
+
+.btn-authen-wrapper {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.btn-authen-wrapper .btn-authen {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: #009a5f;
+  border-radius: 8px;
+  padding: 10px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn-authen-wrapper .btn-authen:focus {
+  outline: none;
+}
+
+.viva-login-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.viva-login-wrapper .list-viva {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.viva-login-wrapper .list-viva .viva-item {
+  margin-right: 16px;
+}
+.viva-login-wrapper .btn-register {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  /* #009A5F */
+  color: #009a5f;
+  text-decoration: none;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/*# sourceMappingURL=header.css.map */
