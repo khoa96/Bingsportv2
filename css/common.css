@@ -511,6 +511,7 @@ a {
   background-color: #334155;
   display: flex;
   height: auto;
+  border-radius: 8px 0px 0px 0px;
 }
 .common-filter-match-block .schedule-filter-label {
   background-color: #f91e4e;
