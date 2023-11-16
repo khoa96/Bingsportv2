@@ -1080,7 +1080,7 @@
 .payment-detail-wrapper {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 40px;
+  padding: 0px 16px 16px 16px;
   margin-top: 40px;
   display: flex;
 
@@ -1154,6 +1154,11 @@
         color: #718096;
       }
 
+    .txt-hightlight {
+      text-decoration: none;
+      color: #f91e4e;
+    }
+
       .text-through-line {
         text-decoration: line-through;
       }
@@ -1164,6 +1169,9 @@
 
       .text-green {
         color: #f91e4e;
+      }
+      .txt-blue {
+        color:#3ac5c9;
       }
 
       .text-total {
@@ -1194,6 +1202,49 @@
         /* Gray:900 */
 
         color: #fff;
+      }
+    }
+
+    .voucher-block-wrapper {
+      display: flex;
+      align-items: center;
+
+      .voucher-title {
+        margin-right: 16px;
+      }
+      .voucher-form {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+
+        input {
+          background: hsla(0,0%,100%,.05);
+          border: 1px solid #10b98100;
+          border-radius: 8px;
+          color: #fff;
+          height: 34px;
+          margin: 10px auto;
+          outline: 0;
+          padding: 0 15px;
+          width: 100%;
+
+          border: none;
+          outline: none;
+          flex-grow: 1;
+        }
+
+        .btn-add-voucher {
+          align-items: center;
+          background-color: #f91e4e;
+          border: 1px solid #10b98100;
+          border-radius: 5px;
+          color: #fff;
+          cursor: pointer;
+          display: flex;
+          height: 34px;
+          padding: 0 5px;
+          margin-left: 14px;;
+        }
       }
     }
   }

@@ -403,29 +403,32 @@
               <div class="table-payment-detail-wrapper">
                 <div class="payment-table-detail">
                   <div class="table-row">
-                    <span class="title">6 months</span>
+                    <span class="title">12 months</span>
                     <span class="value">
-                      <span class="text-gray text-through-line">$75</span>
-                      <span class="text-strong">$18</span>
+                      <span class="text-strong">US$288</span>
                     </span>
                   </div>
                   <div class="table-row">
-                    <span class="title">Fee payment</span>
+                    <span class="title">Promotion 72%</span>
                     <span class="value">
-                      <span class="text-strong">$3</span>
+                      <span class="text-strong txt-hightlight">-US$ 206</span>
+                    </span>
+                  </div>
+                  <div class="table-row">
+                    <span class="title">Total</span>
+                    <span class="value">
+                      <span class="text-strong txt-blue">US$ 82</span>
                     </span>
                   </div>
 
-                  <div class="table-row">
-                    <span class="title">
-                      <span>Total</span>
-                    </span>
-                    <span class="value">
-                      <span class="text-total">$20</span>
-                    </span>
+                  <div class="voucher-block-wrapper">
+                     <span class="title voucher-title">Voucher:</span>
+                     <form action="" method="" class="voucher-form">
+                        <input type="txt" name="" value="" placeholder="Enter your voucher" />
+                        <button class="btn-add-voucher" type="submit">Apply</button>
+                     </form>
                   </div>
                 </div>
-                <span class="have-coupon-code-txt">Have coupon code?</span>
               </div>
 
               <div class="term-of-service-wrapper">
