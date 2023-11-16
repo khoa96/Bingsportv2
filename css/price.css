@@ -50,7 +50,41 @@
     align-items: flex-start;
   }
 }
-.page-price-wrapper .price-banner-wrapper .price-banner-content .banner-title {
+
+.main-step-content-wrapper {
+  width: 100%;
+  display: flex;
+  padding: 30px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .main-step-content-wrapper {
+    flex-direction: column;
+  }
+}
+.main-step-content-wrapper .left-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.main-step-content-wrapper .right-content {
+  min-width: 382px;
+  max-width: 382px;
+  background-color: hsla(0deg, 0%, 100%, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0);
+  padding: 16px;
+  position: relative;
+  margin-left: 30px;
+  height: max-content;
+}
+@media only screen and (max-width: 991px) {
+  .main-step-content-wrapper .right-content {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+}
+.main-step-content-wrapper .banner-title {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -61,7 +95,7 @@
   margin-bottom: 24px;
 }
 @media only screen and (max-width: 991px) {
-  .page-price-wrapper .price-banner-wrapper .price-banner-content .banner-title {
+  .main-step-content-wrapper .banner-title {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -72,32 +106,31 @@
     margin-bottom: 16px;
   }
 }
-.page-price-wrapper .price-banner-wrapper .price-banner-content .list-benefit {
+.main-step-content-wrapper .list-benefit {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  flex-direction: column;
 }
 @media only screen and (max-width: 991px) {
-  .page-price-wrapper .price-banner-wrapper .price-banner-content .list-benefit {
+  .main-step-content-wrapper .list-benefit {
     gap: 0;
     justify-content: flex-start;
   }
 }
-.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item {
-  width: calc((100% - 72px) / 4);
-  height: auto;
-  padding: 16px 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.main-step-content-wrapper .benefit-item {
   align-items: center;
   background-attachment: fixed;
-  background: rgba(255, 255, 255, 0.05);
-  min-height: 120px;
+  background: hsla(0deg, 0%, 100%, 0.05);
+  border: 1px solid rgba(16, 185, 129, 0);
+  display: flex;
+  height: auto;
+  padding: 16px;
+  margin-bottom: 14px;
+  width: 100%;
 }
 @media only screen and (max-width: 991px) {
-  .page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item {
+  .main-step-content-wrapper .benefit-item {
     width: 100%;
     margin-bottom: 16px;
     flex-direction: row;
@@ -109,32 +142,31 @@
     min-height: max-content;
   }
 }
-.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .icon {
+.main-step-content-wrapper .benefit-item .icon {
   min-width: 24px;
   max-width: 24px;
   height: 24px;
-  margin-bottom: 16px;
+  margin-right: 16px;
 }
 @media only screen and (max-width: 991px) {
-  .page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .icon {
-    margin-bottom: 0;
-    margin-right: 16px;
+  .main-step-content-wrapper .benefit-item .icon {
+    margin-right: 12px;
   }
 }
-.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .benefit-title {
+.main-step-content-wrapper .benefit-item .benefit-title {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height */
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   margin-bottom: 16px;
   margin: 0;
   padding: 0;
 }
 @media only screen and (max-width: 991px) {
-  .page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .benefit-title {
+  .main-step-content-wrapper .benefit-item .benefit-title {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -143,7 +175,7 @@
     color: #ffffff;
   }
 }
-.page-price-wrapper .price-banner-wrapper .price-banner-content .benefit-item .active {
+.main-step-content-wrapper .benefit-item .active {
   font-style: normal;
   color: #fdc400;
   font-weight: 600;
@@ -160,6 +192,10 @@
   .price-list-step-wrapper {
     padding: 40px 0px 48px;
   }
+}
+.price-list-step-wrapper .price-list-step-content {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #334155;
 }
 .price-list-step-wrapper .step-wrapper {
   width: 100%;
@@ -247,16 +283,28 @@
   /* Gray:300 */
   border: none;
   border-radius: 8px;
-  display: flex;
   flex-direction: column;
   position: relative;
   cursor: pointer;
   padding: 24px;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  flex-direction: column;
   margin-right: 24px;
   position: relative;
+}
+.price-list-step-wrapper .list-match-plan .plan-item:nth-child(2) {
+  display: flex;
+  min-height: 238px;
+  align-items: center;
+}
+@media only screen and (max-width: 991px) {
+  .price-list-step-wrapper .list-match-plan .plan-item:nth-child(2) {
+    min-height: unset;
+  }
+}
+.price-list-step-wrapper .list-match-plan .plan-item:hover {
+  border: 1px solid #10b981;
 }
 .price-list-step-wrapper .list-match-plan .plan-item:last-of-type {
   margin-right: 0;
@@ -380,7 +428,7 @@
 }
 .price-list-step-wrapper .list-match-plan .plan-item .save-label {
   padding: 2px 10px;
-  border: 1px solid #f91e4e;
+  border: 1px solid #10b981;
   border-radius: 16px;
   font-style: normal;
   font-weight: 500;
@@ -388,7 +436,7 @@
   line-height: 24px;
   /* identical to box height */
   text-align: center;
-  color: #f91e4e;
+  color: #10b981;
   outline: none;
   position: absolute;
   top: 24px;
@@ -454,22 +502,15 @@
   }
 }
 .price-list-step-wrapper .list-match-plan .active {
-  border: 1px solid #f91e4e;
-}
-.price-list-step-wrapper .list-match-plan .active .btn-select-plan {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 8px;
-  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #10b981;
 }
 
 .create-your-account-wrapper {
   width: 100%;
   height: auto;
-  margin-top: 72px;
 }
 @media only screen and (max-width: 991px) {
   .create-your-account-wrapper {
-    margin-top: 36px;
     display: flex;
     flex-direction: column;
   }
@@ -477,7 +518,8 @@
 .create-your-account-wrapper .create-account-form-wrapper {
   margin-top: 24px;
   display: flex;
-  align-items: flex-end;
+  width: 100%;
+  flex-direction: column;
 }
 @media only screen and (max-width: 991px) {
   .create-your-account-wrapper .create-account-form-wrapper {
@@ -488,9 +530,8 @@
   }
 }
 .create-your-account-wrapper .create-account-form {
-  max-width: 690px;
-  min-width: 690px;
-  margin-right: 24px;
+  max-width: 100%;
+  min-width: 100%;
 }
 @media only screen and (max-width: 991px) {
   .create-your-account-wrapper .create-account-form {
@@ -618,6 +659,12 @@
 }
 .create-your-account-wrapper .create-by-viva-account {
   flex-grow: 1;
+  margin-top: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .create-your-account-wrapper .create-by-viva-account {
+    margin-top: 12px;
+  }
 }
 .create-your-account-wrapper .create-by-viva-account .viva-wrapper {
   display: flex;
@@ -1104,8 +1151,14 @@
   font-size: 14px;
   line-height: 21px;
   /* identical to box height */
-  text-align: center;
+  text-align: right;
+  max-width: 280px;
   color: #ffffff;
+}
+@media only screen and (max-width: 991px) {
+  .payment-detail-wrapper .term-of-service-wrapper .description {
+    max-width: 100%;
+  }
 }
 .payment-detail-wrapper .term-of-service-wrapper .mr-24 {
   margin: 24px 0px;

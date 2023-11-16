@@ -163,6 +163,10 @@
     background-color: #0f172a;
   }
 }
+.offcanvas-body .list-league {
+  position: relative;
+  top: 40px;
+}
 .offcanvas-body .menu-for-mobile {
   position: relative;
   top: 36px;
@@ -498,4 +502,4 @@
   margin-bottom: 0 !important;
 }
 
-
+/*# sourceMappingURL=header.css.map */
