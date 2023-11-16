@@ -681,20 +681,6 @@
         <div class="list-channel-content">
           <h3 class="title">244 channels available in your area</h3>
           <p class="description">Not your home location? Update the ZIP code above</p>
-          <div class="search-form">
-            <span class="icon">
-
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="11.7669" cy="11.7669" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round"
-                  stroke-linejoin="round" />
-                <path d="M18.0186 18.4854L21.5426 22.0003" stroke="white" stroke-width="1.5" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
-
-            </span>
-
-            <input type="text" name="" placeholder="Search for a channel by name" class="input-search">
-          </div>
 
           <div class="list-sport-wrapper">
             <ul class="list-sport">
