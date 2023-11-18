@@ -7,61 +7,61 @@
 		<div class="container">
 
 			<?php include "templates/subHeader.php"; ?>
-			<div class="common-layout-wrapper">
-				<div class="common-left-layout common-layout-block">
+			<div class="common-main-layout-wrapper">
+				<div class="common-main-left-content-layout common-layout-block">
 					<div class="header-title-block">
 						<h3 class="txt-title">Football</h3>
 					</div>
 					<div class="list-league-wrapper">
-						<ul class="list-league">
+						<ul class="common-list-league">
 							<li class="active">
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-1.png" alt="" />
 									<span class="league-name text-overflow-150">Premier League</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-2.png" alt="" />
 									<span class="league-name text-overflow-150">Spain</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-3.png" alt="" />
 									<span class="league-name text-overflow-150">Italia</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-4.png" alt="" />
 									<span class="league-name text-overflow-150">France</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-5.png" alt="" />
 									<span class="league-name text-overflow-150">Champions League</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-6.png" alt="" />
 									<span class="league-name text-overflow-150">Germany</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-7.png" alt="" />
 									<span class="league-name text-overflow-150">Europa League uropa League</span>
 								</a>
 							</li>
 							<li>
-								<a href="#" class="league-item">
+								<a href="#" class="common-league-item">
 									<img class="league-image-common" src="./images/league-1.png" alt="" />
 									<span class="league-name text-overflow-150">Germany</span>
 								</a>
@@ -69,7 +69,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="common-right-layout">
+				<div class="common-main-right-content-layout">
 					<div class="top-content-wrapper reseller-program-wrapper">
 						<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path fill-rule="evenodd" clip-rule="evenodd"
@@ -96,40 +96,28 @@
 								<div class="header-block">
 									<span class="time-label">Wednesday, 15/11</span>
 								</div>
-								<div class="common-table-league">
-									<div class="common-table-row">
-										<div class="left-row">
-											<div class="math-info-wrapper">
-												<span class="hour-label">
-													<strong>00:00</strong>
-												</span>
-											</div>
-											<div class="league-name-wrapper">
-												<div class="league-name ">
-													Premier League
+
+								<div class="table-match-wrapper">
+									<div class="match-table-row">
+										<div class="match-left-column">
+											<div class="live-status-wrapper">
+												<div class="livenow">
+													<div></div>
 												</div>
+												<span class="live-label">LIVE</span>
 											</div>
+											<span class="league-name-txt">FIBA Europe Cup</span>
 										</div>
-
-
-										<div class="right-row">
-											<div class="list-club-wrapper">
-												<div class="club-item first-club">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Manchester United
-														</div>
-													</div>
-													<img src="./images/league-1.png" alt="" class="club-image">
+										<div class="match-right-column">
+											<div class="club-list-info-wrapper">
+												<div class="club-info-item-wrapper first-club">
+													<span class="club-name-txt">Westchester Knicks nguyen dang khoa</span>
+													<img src="./images/league-1.png" class="club-image" alt="">
 												</div>
-												<div class="score-wrapper"> 1 - 2</div>
-												<div class="club-item last-club">
-													<img src="./images/league-2.png" alt="" class="club-image">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Manchester United
-														</div>
-													</div>
+												<span class="score-match">0 : 0 </span>
+												<div class="club-info-item-wrapper second-club">
+													<img src="./images/league-2.png" class="club-image" alt="">
+													<span class="club-name-txt">Greensboro Swarm nguyen dang khoa nguyen dang kho </span>
 												</div>
 											</div>
 											<button class="btn-watch">
@@ -138,42 +126,26 @@
 											</button>
 										</div>
 									</div>
-									<div class="common-table-row">
-										<div class="left-row">
-											<div class="math-info-wrapper">
-												<div class="live-status-wrapper">
-													<div class="livenow">
-														<div></div>
-													</div>
-													<span class="live-lable">LIVE</span>
+									<div class="match-table-row">
+										<div class="match-left-column">
+											<div class="live-status-wrapper">
+												<div class="livenow">
+													<div></div>
 												</div>
+												<span class="live-label">LIVE</span>
 											</div>
-
-											<div class="league-name-wrapper">
-												<div class="league-name ">
-													Premier League
-												</div>
-											</div>
+											<span class="league-name-txt">FIBA Europe Cup</span>
 										</div>
-
-										<div class="right-row">
-											<div class="list-club-wrapper">
-												<div class="club-item first-club">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Manchester United
-														</div>
-													</div>
-													<img src="./images/league-7.png" alt="" class="club-image">
+										<div class="match-right-column">
+											<div class="club-list-info-wrapper">
+												<div class="club-info-item-wrapper first-club">
+													<span class="club-name-txt">Westchester Knicks</span>
+													<img src="./images/league-1.png" class="club-image" alt="">
 												</div>
-												<div class="score-wrapper"> 1 - 2</div>
-												<div class="club-item last-club">
-													<img src="./images/league-4.png" alt="" class="club-image">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Manchester United
-														</div>
-													</div>
+												<span class="score-match">0 : 0 </span>
+												<div class="club-info-item-wrapper second-club">
+													<img src="./images/league-2.png" class="club-image" alt="">
+													<span class="club-name-txt">Greensboro Swarm</span>
 												</div>
 											</div>
 											<button class="btn-watch">
@@ -182,38 +154,26 @@
 											</button>
 										</div>
 									</div>
-									<div class="common-table-row">
-										<div class="left-row">
-											<div class="math-info-wrapper">
-												<span class="hour-label">
-													<strong>00:00</strong>
-												</span>
-											</div>
-											<div class="league-name-wrapper">
-												<div class="league-name ">
-													Premier League
+									<div class="match-table-row">
+										<div class="match-left-column">
+											<div class="live-status-wrapper">
+												<div class="livenow">
+													<div></div>
 												</div>
+												<span class="live-label">2nd Half: 69</span>
 											</div>
+											<span class="league-name-txt">FIBA Europe Cup</span>
 										</div>
-
-										<div class="right-row">
-											<div class="list-club-wrapper">
-												<div class="club-item first-club">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Manchester United
-														</div>
-													</div>
-													<img src="./images/league-5.png" alt="" class="club-image">
+										<div class="match-right-column">
+											<div class="club-list-info-wrapper">
+												<div class="club-info-item-wrapper first-club">
+													<span class="club-name-txt">Westchester Knicks</span>
+													<img src="./images/league-1.png" class="club-image" alt="">
 												</div>
-												<div class="score-wrapper"> 1 - 2</div>
-												<div class="club-item last-club">
-													<img src="./images/league-6.png" alt="" class="club-image">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Manchester United
-														</div>
-													</div>
+												<span class="score-match">0 : 0 </span>
+												<div class="club-info-item-wrapper second-club">
+													<img src="./images/league-2.png" class="club-image" alt="">
+													<span class="club-name-txt">Greensboro Swarm</span>
 												</div>
 											</div>
 											<button class="btn-watch">
@@ -222,23 +182,24 @@
 											</button>
 										</div>
 									</div>
-									<div class="common-table-row">
-										<div class="left-row">
-											<div class="math-info-wrapper">
-												<span class="hour-label">
-													<strong>01:30</strong>
-												</span>
-											</div>
-											<div class="league-name-wrapper">
-												<div class="league-name ">
-													Premier League
-												</div>
-											</div>
+									<div class="match-table-row">
+										<div class="match-left-column">
+											<span class="time-label">
+												<strong>22:00</strong>
+											</span>
+											<span class="league-name-txt">FIBA Europe Cup</span>
 										</div>
-
-										<div class="right-row">
-											<div class="list-club-wrapper">
-												<span class="txt-name"> Elverum Handball vs SG Flensburg-Handewitt</span>
+										<div class="match-right-column">
+											<div class="club-list-info-wrapper">
+												<div class="club-info-item-wrapper first-club">
+													<span class="club-name-txt">Westchester Knicks</span>
+													<img src="./images/league-1.png" class="club-image" alt="">
+												</div>
+												<span class="score-match">0 : 0 </span>
+												<div class="club-info-item-wrapper second-club">
+													<img src="./images/league-2.png" class="club-image" alt="">
+													<span class="club-name-txt">Greensboro Swarm</span>
+												</div>
 											</div>
 											<button class="btn-watch">
 												<span>Watch</span>
@@ -246,76 +207,16 @@
 											</button>
 										</div>
 									</div>
-									<div class="common-table-row">
-										<div class="left-row">
-											<div class="math-info-wrapper">
-												<span class="hour-label">
-													<strong>02:30</strong>
-												</span>
-											</div>
-											<div class="league-name-wrapper">
-												<div class="league-name ">
-													Premier League
-												</div>
-											</div>
+									<div class="match-table-row">
+										<div class="match-left-column">
+											<span class="time-label">
+												<strong>22:00</strong>
+											</span>
+											<span class="league-name-txt">FIBA Europe Cup</span>
 										</div>
-
-										<div class="right-row">
-											<div class="list-club-wrapper">
-												<span class="txt-name">I. Dodig / A. Krajicek vs M. Granollers / H. Zeballos - Men's Doubles</span>
-											</div>
-											<button class="btn-watch">
-												<span>Watch</span>
-												<div class="arrow-right"></div>
-											</button>
-										</div>
-									</div>
-									<div class="common-table-row">
-										<div class="left-row">
-											<div class="math-info-wrapper">
-												<div class="live-status-wrapper">
-													<div class="livenow">
-														<div></div>
-													</div>
-													<span class="live-lable">2nd Half: 86'</span>
-												</div>
-											</div>
-
-											<div class="league-name-wrapper">
-												<div class="league-name ">
-													Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, optio repellendus quisquam
-													minus
-													libero totam, provident qui adipisci quasi pariatur vel natus recusandae minima blanditiis
-													architecto aspernatur suscipit, voluptatum reprehenderit!
-												</div>
-											</div>
-
-										</div>
-
-
-										<div class="right-row">
-											<div class="list-club-wrapper">
-												<div class="club-item first-club">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro explicabo facere
-															dignis numquam nesciunt dolore iste sapiente, adipisci maxime ea commodi
-															consequatur? Corporis illum eligendi asperiores eaque atque maiores unde?
-														</div>
-													</div>
-													<img src="./images/league-2.png" alt="" class="club-image">
-												</div>
-												<div class="score-wrapper"> 1 - 2</div>
-												<div class="club-item last-club">
-													<img src="./images/league-7.png" alt="" class="club-image">
-													<div class="club-name-wrapper">
-														<div class="club-name ">
-															Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, eos tenetur! Dolore
-															tenetur excepturi aspernatur blanditiis impedit quisquam fugit illo ab, nisi doloribus.
-															Maiores, nulla architecto repellat placeat animi eos.
-														</div>
-													</div>
-												</div>
+										<div class="match-right-column">
+											<div class="club-list-info-wrapper">
+												<span class="txt-detail">The RSM Classic, Second Round</span>
 											</div>
 											<button class="btn-watch">
 												<span>Watch</span>
@@ -331,6 +232,7 @@
 			</div>
 		</div>
 	</div>
+	<?php include "templates/collapse.php"; ?>
 	<?php include "templates/footer.php"; ?>
 	<script>
 		$(function () {
@@ -351,6 +253,11 @@
 			});
 		});
 	</script>
+	<script>
+$(".common-collapse-content").click(function() {
+  $(this).toggleClass("masked open");
+});
+</script>
 </body>
 
 </html>

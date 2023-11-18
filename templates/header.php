@@ -118,107 +118,62 @@
     </ul>
 
     <!-- LIST LEAGUE FOR MOBILE -->
-    <ul class="list-league">
-      <li class="active">
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-1.png" alt="" />
-          <span class="league-name text-overflow-150">Premier League</span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-2.png" alt="" />
-          <span class="league-name text-overflow-150">Spain</span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-3.png" alt="" />
-          <span class="league-name text-overflow-150">Italia</span>
-        </a>
-      </li>
+    <div class="list-league-wrapper">
+      <ul class="common-list-league">
+        <li class="active">
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-1.png" alt="" />
+            <span class="league-name text-overflow-150">Premier League</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-2.png" alt="" />
+            <span class="league-name text-overflow-150">Spain</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-3.png" alt="" />
+            <span class="league-name text-overflow-150">Italia</span>
+          </a>
+        </li>
 
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-4.png" alt="" />
-          <span class="league-name text-overflow-150">France</span>
-        </a>
-      </li>
+        <li>
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-4.png" alt="" />
+            <span class="league-name text-overflow-150">France</span>
+          </a>
+        </li>
 
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-5.png" alt="" />
-          <span class="league-name text-overflow-150">Champions League</span>
-        </a>
-      </li>
+        <li>
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-5.png" alt="" />
+            <span class="league-name text-overflow-150">Champions League</span>
+          </a>
+        </li>
 
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-6.png" alt="" />
-          <span class="league-name text-overflow-150">Germany</span>
-        </a>
-      </li>
+        <li>
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-6.png" alt="" />
+            <span class="league-name text-overflow-150">Germany</span>
+          </a>
+        </li>
 
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-7.png" alt="" />
-          <span class="league-name text-overflow-150">Europa League uropa League</span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-1.png" alt="" />
-          <span class="league-name text-overflow-150">Germany</span>
-        </a>
-      </li>
-
-			<li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-2.png" alt="" />
-          <span class="league-name text-overflow-150">Spain</span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-3.png" alt="" />
-          <span class="league-name text-overflow-150">Italia</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-4.png" alt="" />
-          <span class="league-name text-overflow-150">France</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-5.png" alt="" />
-          <span class="league-name text-overflow-150">Champions League</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-6.png" alt="" />
-          <span class="league-name text-overflow-150">Germany</span>
-        </a>
-      </li>
-
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-7.png" alt="" />
-          <span class="league-name text-overflow-150">Europa League uropa League</span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="league-item">
-          <img class="league-image-common" src="./images/league-1.png" alt="" />
-          <span class="league-name text-overflow-150">Germany</span>
-        </a>
-      </li>
-    </ul>
+        <li>
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-7.png" alt="" />
+            <span class="league-name text-overflow-150">Europa League uropa League</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="common-league-item">
+            <img class="league-image-common" src="./images/league-1.png" alt="" />
+            <span class="league-name text-overflow-150">Germany</span>
+          </a>
+        </li>
+      </ul>
+    </div>
     <!-- LIST LEAGUE FOR MOBILE -->
 
     <!-- MENU FOR MOBILE -->
