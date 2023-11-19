@@ -1433,3 +1433,204 @@ a {
 		margin-top: 36px;
 	}
 }
+
+
+.news-detail-football-ranking {
+	width: 100%;
+	height: auto;
+	background: #1e293b;
+  color: #fff;
+	border-radius: 4px;
+
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		position: relative;
+		padding: 8px;
+		align-items: center;
+		background: #334155;
+    color: #fff;
+		border-radius: 4px;
+
+		.league-info {
+			display: flex;
+			flex-grow: 1;
+			justify-content: center;
+			gap: 6px;
+			align-items: center;
+		}
+
+		.news-detail-league-ranking-item {
+			width: 100%;
+			display: flex;
+			justify-content: flex-start;
+			padding: 10px 16px;
+			gap: 6px;
+			cursor: pointer;
+			border: none;
+			border-radius: 0px;
+			background-color: transparent;
+			align-items: center;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 21px;
+			color: #fff;
+
+			&:hover {
+				background-color: #293445;
+			}
+
+			img {
+				display: block;
+				width: 24px;
+				min-width: 24px;
+				height: 24px;
+				object-fit: cover;
+			}
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.league-image {
+			display: block;
+			width: 24px;
+			min-width: 24px;
+			height: 24px;
+			object-fit: cover;
+		}
+
+		.league-name {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 21px;
+			color: #fff;
+			font-family: 'Poppins';
+		}
+
+		.btn-league-dropdown {
+			display: flex;
+			min-width: 32px;
+			height: 32px;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+			border: none;
+			border-radius: 4px;
+			background-color: #293445;
+
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		.show {
+			display: flex;
+		}
+
+		.news-detail-list-league-ranking-dropdown {
+			position: absolute;
+			top: 45px;
+			left: 0;
+			width: 100%;
+			height: auto;
+			background-color: #1e293b;
+      color: #fff;
+			z-index: 999;
+			display: flex;
+			flex-direction: column;
+			border-radius: 4px;
+
+		}
+
+		@include mq(max_md) {
+			display: flex;
+		}
+
+
+	}
+}
+
+
+.common-news-detail-group-table-league-ranking {
+  width: 100%;
+  background-color: #1e293b;
+  font-size: 14px;
+  color: #fff;
+
+  .common-news-detail-group-table-header {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #334155;
+  }
+
+  .small-column {
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .large-column {
+    flex-grow: 1;
+    padding: 0px 8px;
+    align-items: center;
+    display: flex;
+  }
+
+  .list-group-wrapper {
+    width: 100%;
+  }
+  .group-header {
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #334155;
+  }
+
+  .group-row {
+    display: flex;
+     border-bottom: 1px solid #334155;
+    .small-column {
+      &:first-child {
+        background-color: #475569;
+      }
+    }
+  }
+
+  .league-info-detail {
+    display: flex;
+    align-items: center;
+
+    .league-image {
+      min-width: 24px;
+      max-width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 8px;
+    }
+
+    .league-name {
+      max-width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+  }
+}

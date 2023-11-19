@@ -49,3 +49,30 @@ event.preventDefault();
  $(".popup-forgot-password").show();
  $(".popup").addClass("popup--show");
 })
+
+
+
+// =================== HANDLE SELECT LEAGUE RANKING ===================
+
+// hidden list league ranking when init
+$(".news-detail-list-league-ranking-dropdown").hide();
+
+// toggle show list league ranking when click.
+$("#btn-league-ranking-dropdown").on("click", function () {
+  $(".news-detail-list-league-ranking-dropdown").toggle();
+});
+
+// handle click league for mobile
+$(".news-detail-league-ranking-item").on("click", function () {
+  const imgElement = $(this).children("img");
+  const spanElement = $(this).children("span");
+  if (imgElement.length && spanElement.length) {
+    const src = imgElement.attr("src");
+    const leagueName = spanElement.text();
+    $("#league-ranking-image").attr("src", src);
+    $("#league-ranking-name").text(leagueName);
+  }
+  $(".news-detail-list-league-ranking-dropdown").hide();
+  // code something here .....
+});
+// =================== HANDLE SELECT LEAGUE RANKING ===================

@@ -194,4 +194,141 @@
   text-align: center;
 }
 
+.common-news-detail-page-wrapper {
+  width: 100%;
+  height: auto;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(249, 30, 78);
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-wrapper {
+    padding-bottom: 48px;
+  }
+}
+
+.common-news-detail-page-content {
+  display: flex;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content {
+    flex-direction: column;
+  }
+}
+.common-news-detail-page-content .news-detail-right-layout {
+  min-width: 350px;
+  max-width: 350px;
+  height: max-content;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-right-layout {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+.common-news-detail-page-content .news-detail-left-layout {
+  flex-grow: 1;
+  padding-right: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-left-layout {
+    padding-right: 0;
+  }
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper {
+  margin-top: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper {
+    margin-top: 16px;
+  }
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-title {
+  font-size: 28px;
+  color: #fff;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-title {
+    font-size: 24px;
+  }
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-timestamp-label {
+  font-size: 16px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-timestamp-label {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-description {
+  margin-top: 32px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-description {
+    margin-top: 24px;
+    margin-bottom: 14px;
+  }
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .main-news-detail-content {
+  margin-top: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #334155;
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-line-title {
+  font-size: 21px;
+  color: #fff;
+  margin: 1rem 0;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-line-title {
+    font-size: 21px;
+    margin: 12px 0px;
+  }
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-line {
+  margin: 1rem 0px;
+}
+.common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-image {
+  width: 514px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 991px) {
+  .common-news-detail-page-content .news-detail-left-layout .main-news-detail-block-wrapper .news-detail-image {
+    width: 100%;
+  }
+}
+
+.common-related-news-block-wrapper {
+  padding-top: 32px;
+}
+@media only screen and (max-width: 991px) {
+  .common-related-news-block-wrapper {
+    padding-top: 24px;
+  }
+}
+.common-related-news-block-wrapper .related-news-title {
+  font-size: 18px;
+  color: #fff;
+}
+.common-related-news-block-wrapper .common-news-related-list {
+  position: relative;
+  left: 10px;
+  margin-top: 14px;
+  list-style: initial;
+}
+.common-related-news-block-wrapper .common-news-related-list li {
+  margin: 10px 0px;
+}
+.common-related-news-block-wrapper .common-news-related-list li a {
+  font-size: 14px;
+  color: #fff;
+}
+
 /*# sourceMappingURL=news.css.map */
