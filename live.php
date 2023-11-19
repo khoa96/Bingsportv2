@@ -33,6 +33,7 @@
           </a>
         </div>
 
+        <!-- THÔNG TIN CỦA TRẬN ĐẤU (TITLE + DESCRIPTION -->
         <div class="top-match-info-detail">
           <h2 class="match-title">Watch livestream Court 2 - Day 2 - Chiang Mai on 2023-11-17</h2>
           <p class="match-description">
@@ -40,51 +41,62 @@
             up and Enjoy!
           </p>
         </div>
-
-        <div class="media-box-wrapper">
-          <div class="view-match-media-wrapper">
-            <div class="front-mask-content-wrapper">
-              <a href="#">
-                <img src="./images/big-logo.png" class="big-logo" alt="">
-              </a>
-              <p class="content-description">
-                Your 10-minute trial period for today has expired, please upgrade your<br /> account to continue watching.
-              </p>
-              <div class="bottom-box-content-wrapper">
-                <div class="top-content">
+        <!-- VIEW MATCH KHI CẦN UPGRADE -->
+        <div class="view-match-with-upgrade-wrapper">
+          <div class="media-box-wrapper">
+            <div class="view-match-media-wrapper">
+              <div class="front-mask-content-wrapper">
+                <a href="#">
+                  <img src="./images/big-logo.png" class="big-logo" alt="">
+                </a>
+                <p class="content-description">
+                  Your 10-minute trial period for today has expired, please upgrade your<br /> account to continue
+                  watching.
+                </p>
+                <div class="bottom-box-content-wrapper">
+                  <div class="top-content">
                     <span class="month-label-txt">12 months</span>
                     <span class="main-value-txt">ONLY <span class="large-text">$ 6.8</span></span>
                     <span class="per-month-txt">per month</span>
-              </div>
-                <ul class="list-option">
-                  <li class="option-item">
-                    <span class="icon-check-wrapper">
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M8.00033 15.3334C12.0504 15.3334 15.3337 12.0502 15.3337 8.00008C15.3337 3.94999 12.0504 0.666748 8.00033 0.666748C3.95024 0.666748 0.666992 3.94999 0.666992 8.00008C0.666992 12.0502 3.95024 15.3334 8.00033 15.3334Z" fill="white"/>
-                      <path d="M4 8.00016L6.66667 10.6668L12 5.3335" stroke="#1E293B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </span>
-                    <span class="txt-detail">High quality</span>
-                  </li>
-                   <li class="option-item">
-                    <span class="icon-check-wrapper">
+                  </div>
+                  <ul class="list-option">
+                    <li class="option-item">
+                      <span class="icon-check-wrapper">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8.00033 15.3334C12.0504 15.3334 15.3337 12.0502 15.3337 8.00008C15.3337 3.94999 12.0504 0.666748 8.00033 0.666748C3.95024 0.666748 0.666992 3.94999 0.666992 8.00008C0.666992 12.0502 3.95024 15.3334 8.00033 15.3334Z"
+                            fill="white" />
+                          <path d="M4 8.00016L6.66667 10.6668L12 5.3335" stroke="#1E293B" stroke-width="1.5"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                      <span class="txt-detail">High quality</span>
+                    </li>
+                    <li class="option-item">
+                      <span class="icon-check-wrapper">
 
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M8.00033 15.3334C12.0504 15.3334 15.3337 12.0502 15.3337 8.00008C15.3337 3.94999 12.0504 0.666748 8.00033 0.666748C3.95024 0.666748 0.666992 3.94999 0.666992 8.00008C0.666992 12.0502 3.95024 15.3334 8.00033 15.3334Z" fill="white"/>
-                      <path d="M4 8.00016L6.66667 10.6668L12 5.3335" stroke="#1E293B" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8.00033 15.3334C12.0504 15.3334 15.3337 12.0502 15.3337 8.00008C15.3337 3.94999 12.0504 0.666748 8.00033 0.666748C3.95024 0.666748 0.666992 3.94999 0.666992 8.00008C0.666992 12.0502 3.95024 15.3334 8.00033 15.3334Z"
+                            fill="white" />
+                          <path d="M4 8.00016L6.66667 10.6668L12 5.3335" stroke="#1E293B" stroke-width="1.5"
+                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
 
-                    </span>
-                    <span class="txt-detail">Full-screen mode - No popups</span>
-                  </li>
-                </ul>
+                      </span>
+                      <span class="txt-detail">Full-screen mode - No popups</span>
+                    </li>
+                  </ul>
 
-                <button class="btn-upgrade">Upgrade now</button>
+                  <button class="btn-upgrade">Upgrade now</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- VIEW MATCH KHI CẦN UPGRADE  -->
 
+        <!-- START CONTROL VIEW MATCH  -->
         <div class="box-control-media-wrapper">
           <div class="left-control-wrapper">
             <ul class="list-option-view">
@@ -95,13 +107,13 @@
                 <button class="btn-view">HD 2</button>
               </li>
             </ul>
-             <div class="live-by-wrapper">
+            <div class="live-by-wrapper">
               <span class="live-by-label">Live by</span>
               <img src="./images/my-cdn-image.png" class="may-image" alt="">
             </div>
           </div>
-          <div class="right-content-wrapper">
-             <ul class="list-player-contact">
+          <div class="right-control-wrapper">
+            <ul class="list-player-contact">
               <li class="list-player-contact-item">
                 <a href="#">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -152,144 +164,212 @@
             </ul>
           </div>
         </div>
+        <!-- END CONTROL VIEW MATCH  -->
+
+        <!-- START LIST CLUB OF MATCH  -->
+        <div class="list-club-of-match-block-wrapper">
+          <span class="match-score">
+            <strong>0 - 0</strong>
+          </span>
+          <div class="list-club-of-match-wrapper">
+            <div class="list-club-of-match-item">
+              <div class="club-info-detail-wrapper">
+                <div class="club-info-line">
+                  <span class="label-txt">Home team:</span>
+                  <span class="value-txt">Croatia</span>
+                </div>
+                <div class="club-info-line">
+                  <span class="label-txt">Formation:</span>
+                  <span class="value-txt">4-3-3</span>
+                </div>
+                <div class="club-info-line">
+                  <span class="label-txt">Stadium:</span>
+                  <span class="value-txt">Stadion Maksimir</span>
+                </div>
+              </div>
+              <img src="./images/club-1.png" class="club-image" alt="">
+            </div>
+            <div class="match-info-detail-wrapper">
+              <div class="info-detail-line">
+                <span class="label">Elapsed: </span>
+                <span class="elapsed-value">FT_PEN</span>
+              </div>
+              <div class="info-detail-line">
+                <span class="label">Half time: </span>
+                <span class="value">0 - 0 </span>
+              </div>
+              <div class="info-detail-line">
+                <span class="label">Fulltime: </span>
+                <span class="value">0 - 0 </span>
+              </div>
+              <div class="info-detail-line">
+                <span class="label">Kickoff: </span>
+                <span class="value">01:45</span>
+              </div>
+              <div class="info-detail-line">
+                <span class="label">Date: </span>
+                <span class="value">19-Jun-2023</span>
+              </div>
+            </div>
+           <div class="list-club-of-match-item">
+               <img src="./images/club-2.png" class="club-image" alt="">
+              <div class="club-info-detail-wrapper">
+                <div class="club-info-line">
+                  <span class="label-txt">Home team:</span>
+                  <span class="value-txt">Croatia</span>
+                </div>
+                <div class="club-info-line">
+                  <span class="label-txt">Formation:</span>
+                  <span class="value-txt">4-3-3</span>
+                </div>
+                <div class="club-info-line">
+                  <span class="label-txt">Stadium:</span>
+                  <span class="value-txt">Stadion Maksimir</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- END LIST CLUB OF MATCH  -->
 
 
         <!-- LIST MATCH INCOMING -->
         <div class="live-list-match-incoming-wrapper">
           <div class="common-match-filter-item">
-								<div class="header-block">
-									<span class="time-label">Wednesday, 15/11</span>
-								</div>
+            <div class="header-block">
+              <span class="time-label">Wednesday, 15/11</span>
+            </div>
 
-								<div class="table-match-wrapper">
-									<div class="match-table-row">
-										<div class="match-left-column">
-											<div class="live-status-wrapper">
-												<div class="livenow">
-													<div></div>
-												</div>
-												<span class="live-label">LIVE</span>
-											</div>
-											<span class="league-name-txt">FIBA Europe Cup</span>
-										</div>
-										<div class="match-right-column">
-											<div class="club-list-info-wrapper">
-												<div class="club-info-item-wrapper first-club">
-													<span class="club-name-txt">Westchester Knicks nguyen dang khoa</span>
-													<img src="./images/league-1.png" class="club-image" alt="">
-												</div>
-												<span class="score-match">0 : 0 </span>
-												<div class="club-info-item-wrapper second-club">
-													<img src="./images/league-2.png" class="club-image" alt="">
-													<span class="club-name-txt">Greensboro Swarm nguyen dang khoa nguyen dang kho </span>
-												</div>
-											</div>
-											<button class="btn-watch">
-												<span>Watch</span>
-												<div class="arrow-right"></div>
-											</button>
-										</div>
-									</div>
-									<div class="match-table-row">
-										<div class="match-left-column">
-											<div class="live-status-wrapper">
-												<div class="livenow">
-													<div></div>
-												</div>
-												<span class="live-label">LIVE</span>
-											</div>
-											<span class="league-name-txt">FIBA Europe Cup</span>
-										</div>
-										<div class="match-right-column">
-											<div class="club-list-info-wrapper">
-												<div class="club-info-item-wrapper first-club">
-													<span class="club-name-txt">Westchester Knicks</span>
-													<img src="./images/league-1.png" class="club-image" alt="">
-												</div>
-												<span class="score-match">0 : 0 </span>
-												<div class="club-info-item-wrapper second-club">
-													<img src="./images/league-2.png" class="club-image" alt="">
-													<span class="club-name-txt">Greensboro Swarm</span>
-												</div>
-											</div>
-											<button class="btn-watch">
-												<span>Watch</span>
-												<div class="arrow-right"></div>
-											</button>
-										</div>
-									</div>
-									<div class="match-table-row">
-										<div class="match-left-column">
-											<div class="live-status-wrapper">
-												<div class="livenow">
-													<div></div>
-												</div>
-												<span class="live-label">2nd Half: 69</span>
-											</div>
-											<span class="league-name-txt">FIBA Europe Cup</span>
-										</div>
-										<div class="match-right-column">
-											<div class="club-list-info-wrapper">
-												<div class="club-info-item-wrapper first-club">
-													<span class="club-name-txt">Westchester Knicks</span>
-													<img src="./images/league-1.png" class="club-image" alt="">
-												</div>
-												<span class="score-match">0 : 0 </span>
-												<div class="club-info-item-wrapper second-club">
-													<img src="./images/league-2.png" class="club-image" alt="">
-													<span class="club-name-txt">Greensboro Swarm</span>
-												</div>
-											</div>
-											<button class="btn-watch">
-												<span>Watch</span>
-												<div class="arrow-right"></div>
-											</button>
-										</div>
-									</div>
-									<div class="match-table-row">
-										<div class="match-left-column">
-											<span class="time-label">
-												<strong>22:00</strong>
-											</span>
-											<span class="league-name-txt">FIBA Europe Cup</span>
-										</div>
-										<div class="match-right-column">
-											<div class="club-list-info-wrapper">
-												<div class="club-info-item-wrapper first-club">
-													<span class="club-name-txt">Westchester Knicks</span>
-													<img src="./images/league-1.png" class="club-image" alt="">
-												</div>
-												<span class="score-match">0 : 0 </span>
-												<div class="club-info-item-wrapper second-club">
-													<img src="./images/league-2.png" class="club-image" alt="">
-													<span class="club-name-txt">Greensboro Swarm</span>
-												</div>
-											</div>
-											<button class="btn-watch">
-												<span>Watch</span>
-												<div class="arrow-right"></div>
-											</button>
-										</div>
-									</div>
-									<div class="match-table-row">
-										<div class="match-left-column">
-											<span class="time-label">
-												<strong>22:00</strong>
-											</span>
-											<span class="league-name-txt">FIBA Europe Cup</span>
-										</div>
-										<div class="match-right-column">
-											<div class="club-list-info-wrapper">
-												<span class="txt-detail">The RSM Classic, Second Round</span>
-											</div>
-											<button class="btn-watch">
-												<span>Watch</span>
-												<div class="arrow-right"></div>
-											</button>
-										</div>
-									</div>
-								</div>
-							</div>
+            <div class="table-match-wrapper">
+              <div class="match-table-row">
+                <div class="match-left-column">
+                  <div class="live-status-wrapper">
+                    <div class="livenow">
+                      <div></div>
+                    </div>
+                    <span class="live-label">LIVE</span>
+                  </div>
+                  <span class="league-name-txt">FIBA Europe Cup</span>
+                </div>
+                <div class="match-right-column">
+                  <div class="club-list-info-wrapper">
+                    <div class="club-info-item-wrapper first-club">
+                      <span class="club-name-txt">Westchester Knicks nguyen dang khoa</span>
+                      <img src="./images/league-1.png" class="club-image" alt="">
+                    </div>
+                    <span class="score-match">0 : 0 </span>
+                    <div class="club-info-item-wrapper second-club">
+                      <img src="./images/league-2.png" class="club-image" alt="">
+                      <span class="club-name-txt">Greensboro Swarm nguyen dang khoa nguyen dang kho </span>
+                    </div>
+                  </div>
+                  <button class="btn-watch">
+                    <span>Watch</span>
+                    <div class="arrow-right"></div>
+                  </button>
+                </div>
+              </div>
+              <div class="match-table-row">
+                <div class="match-left-column">
+                  <div class="live-status-wrapper">
+                    <div class="livenow">
+                      <div></div>
+                    </div>
+                    <span class="live-label">LIVE</span>
+                  </div>
+                  <span class="league-name-txt">FIBA Europe Cup</span>
+                </div>
+                <div class="match-right-column">
+                  <div class="club-list-info-wrapper">
+                    <div class="club-info-item-wrapper first-club">
+                      <span class="club-name-txt">Westchester Knicks</span>
+                      <img src="./images/league-1.png" class="club-image" alt="">
+                    </div>
+                    <span class="score-match">0 : 0 </span>
+                    <div class="club-info-item-wrapper second-club">
+                      <img src="./images/league-2.png" class="club-image" alt="">
+                      <span class="club-name-txt">Greensboro Swarm</span>
+                    </div>
+                  </div>
+                  <button class="btn-watch">
+                    <span>Watch</span>
+                    <div class="arrow-right"></div>
+                  </button>
+                </div>
+              </div>
+              <div class="match-table-row">
+                <div class="match-left-column">
+                  <div class="live-status-wrapper">
+                    <div class="livenow">
+                      <div></div>
+                    </div>
+                    <span class="live-label">2nd Half: 69</span>
+                  </div>
+                  <span class="league-name-txt">FIBA Europe Cup</span>
+                </div>
+                <div class="match-right-column">
+                  <div class="club-list-info-wrapper">
+                    <div class="club-info-item-wrapper first-club">
+                      <span class="club-name-txt">Westchester Knicks</span>
+                      <img src="./images/league-1.png" class="club-image" alt="">
+                    </div>
+                    <span class="score-match">0 : 0 </span>
+                    <div class="club-info-item-wrapper second-club">
+                      <img src="./images/league-2.png" class="club-image" alt="">
+                      <span class="club-name-txt">Greensboro Swarm</span>
+                    </div>
+                  </div>
+                  <button class="btn-watch">
+                    <span>Watch</span>
+                    <div class="arrow-right"></div>
+                  </button>
+                </div>
+              </div>
+              <div class="match-table-row">
+                <div class="match-left-column">
+                  <span class="time-label">
+                    <strong>22:00</strong>
+                  </span>
+                  <span class="league-name-txt">FIBA Europe Cup</span>
+                </div>
+                <div class="match-right-column">
+                  <div class="club-list-info-wrapper">
+                    <div class="club-info-item-wrapper first-club">
+                      <span class="club-name-txt">Westchester Knicks</span>
+                      <img src="./images/league-1.png" class="club-image" alt="">
+                    </div>
+                    <span class="score-match">0 : 0 </span>
+                    <div class="club-info-item-wrapper second-club">
+                      <img src="./images/league-2.png" class="club-image" alt="">
+                      <span class="club-name-txt">Greensboro Swarm</span>
+                    </div>
+                  </div>
+                  <button class="btn-watch">
+                    <span>Watch</span>
+                    <div class="arrow-right"></div>
+                  </button>
+                </div>
+              </div>
+              <div class="match-table-row">
+                <div class="match-left-column">
+                  <span class="time-label">
+                    <strong>22:00</strong>
+                  </span>
+                  <span class="league-name-txt">FIBA Europe Cup</span>
+                </div>
+                <div class="match-right-column">
+                  <div class="club-list-info-wrapper">
+                    <span class="txt-detail">The RSM Classic, Second Round</span>
+                  </div>
+                  <button class="btn-watch">
+                    <span>Watch</span>
+                    <div class="arrow-right"></div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- LIST MATCH INCOMING -->
 

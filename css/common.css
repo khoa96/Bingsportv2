@@ -1316,19 +1316,15 @@ a {
   align-items: center;
   margin-top: 24px;
 }
+@media only screen and (max-width: 991px) {
+  .bing-sport-live-content .box-control-media-wrapper {
+    margin-top: 16px;
+    flex-direction: column;
+  }
+}
 .bing-sport-live-content .left-control-wrapper {
   width: 100%;
   display: flex;
-}
-.bing-sport-live-content .left-control-wrapper .left-control-wrapper,
-.bing-sport-live-content .left-control-wrapper .right-control-wrapper {
-  width: fit-content;
-}
-@media only screen and (max-width: 991px) {
-  .bing-sport-live-content .left-control-wrapper .left-control-wrapper,
-.bing-sport-live-content .left-control-wrapper .right-control-wrapper {
-    width: 100%;
-  }
 }
 .bing-sport-live-content .left-control-wrapper .list-option-view {
   display: flex;
@@ -1368,10 +1364,22 @@ a {
   height: 20px;
   object-fit: cover;
 }
+.bing-sport-live-content .left-control-wrapper,
+.bing-sport-live-content .right-control-wrapper {
+  width: fit-content;
+}
 @media only screen and (max-width: 991px) {
-  .bing-sport-live-content .left-control-wrapper {
-    margin-top: 16px;
-    flex-direction: column;
+  .bing-sport-live-content .left-control-wrapper,
+.bing-sport-live-content .right-control-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .bing-sport-live-content .right-control-wrapper {
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    margin-top: 8px;
   }
 }
 .bing-sport-live-content .list-player-contact {
@@ -1383,6 +1391,9 @@ a {
   max-width: 36px;
   height: 36px;
   margin-right: 16px;
+}
+.bing-sport-live-content .list-player-contact .list-player-contact-item:last-child {
+  margin-right: 0;
 }
 .bing-sport-live-content .list-player-contact .list-player-contact-item a {
   display: block;
@@ -1582,6 +1593,97 @@ a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.list-club-of-match-block-wrapper {
+  margin: 16px 0px;
+  background-color: #1e293b;
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+  padding: 24px 24px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-club-of-match-block-wrapper .match-score {
+  font-size: 20px;
+  color: #fff;
+}
+.list-club-of-match-block-wrapper .list-club-of-match-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.list-club-of-match-block-wrapper .match-info-detail-wrapper {
+  min-width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 0px 30px;
+}
+@media only screen and (max-width: 991px) {
+  .list-club-of-match-block-wrapper .match-info-detail-wrapper {
+    padding: 0px 16px;
+  }
+}
+.list-club-of-match-block-wrapper .match-info-detail-wrapper .info-detail-line {
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+}
+.list-club-of-match-block-wrapper .match-info-detail-wrapper .info-detail-line .elapsed-value {
+  background-color: #576172;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.list-club-of-match-block-wrapper .match-info-detail-wrapper .info-detail-line .value {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.list-club-of-match-block-wrapper .list-club-of-match-item {
+  display: flex;
+  align-items: center;
+}
+.list-club-of-match-block-wrapper .list-club-of-match-item .club-info-detail-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 991px) {
+  .list-club-of-match-block-wrapper .list-club-of-match-item .club-info-detail-wrapper {
+    display: none;
+  }
+}
+.list-club-of-match-block-wrapper .list-club-of-match-item .club-info-line {
+  margin-bottom: 14px;
+}
+.list-club-of-match-block-wrapper .list-club-of-match-item .club-image {
+  min-width: 110px;
+  max-width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 991px) {
+  .list-club-of-match-block-wrapper .list-club-of-match-item .club-image {
+    min-width: 54px;
+    max-width: 54px;
+    height: 54px;
+  }
+}
+.list-club-of-match-block-wrapper .list-club-of-match-item:first-child .club-info-detail-wrapper {
+  align-items: flex-end;
+  padding-right: 16px;
+}
+.list-club-of-match-block-wrapper .list-club-of-match-item:last-child .club-info-detail-wrapper {
+  align-items: flex-start;
+  padding-left: 16px;
 }
 
 /*# sourceMappingURL=common.css.map */

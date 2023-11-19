@@ -938,9 +938,9 @@ a {
         margin: 0px 10px;
         min-width: max-content;
 
-				@include mq(max_md) {
-					font-size: 13px;
-				}
+        @include mq(max_md) {
+          font-size: 13px;
+        }
       }
 
       .club-image {
@@ -1319,22 +1319,16 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-		    margin-top: 24px;
+    margin-top: 24px;
+
+    @include mq(max_md) {
+      margin-top: 16px;
+      flex-direction: column;
+    }
   }
   .left-control-wrapper {
     width: 100%;
     display: flex;
-
-
-    .left-control-wrapper,
-    .right-control-wrapper {
-      width: fit-content;
-
-      @include mq(max_md) {
-        width: 100%;
-      }
-    }
-
     .list-option-view {
       display: flex;
       align-items: center;
@@ -1379,10 +1373,23 @@ a {
         object-fit: cover;
       }
     }
+  }
+
+  .left-control-wrapper,
+  .right-control-wrapper {
+    width: fit-content;
 
     @include mq(max_md) {
-      margin-top: 16px;
-      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .right-control-wrapper {
+    @include mq(max_md) {
+      justify-content: flex-end;
+      width: 100%;
+      display: flex;
+      margin-top: 8px;
     }
   }
 
@@ -1394,172 +1401,168 @@ a {
       min-width: 36px;
       max-width: 36px;
       height: 36px;
-
       margin-right: 16px;
+
+      &:last-child {
+        margin-right: 0;
+      }
 
       a {
         display: block;
         width: 100%;
-				display: flex;
-			justify-content: center;
-			align-items: center;
-			border-radius: 50%;;
-			border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid white;
         height: 100%;
       }
     }
 
-		.large-list-player-contact-item {
-			min-width: 85px;
-			display: flex;
-			justify-content: center;
-			height: 36px;
+    .large-list-player-contact-item {
+      min-width: 85px;
+      display: flex;
+      justify-content: center;
+      height: 36px;
 
-				a {
-								padding: 0px 8px;
-					border-radius: 40px !important;
+      a {
+        padding: 0px 8px;
+        border-radius: 40px !important;
 
-					.report-txt {
-						color: #fff;
-						margin-left: 8px;
-
-					}
-				}
-
-		}
+        .report-txt {
+          color: #fff;
+          margin-left: 8px;
+        }
+      }
+    }
   }
 
-	.live-list-match-incoming-wrapper {
-		margin-top: 36px;
-	}
+  .live-list-match-incoming-wrapper {
+    margin-top: 36px;
+  }
 }
-
 
 .news-detail-football-ranking {
-	width: 100%;
-	height: auto;
-	background: #1e293b;
+  width: 100%;
+  height: auto;
+  background: #1e293b;
   color: #fff;
-	border-radius: 4px;
+  border-radius: 4px;
 
-	&__header {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-		position: relative;
-		padding: 8px;
-		align-items: center;
-		background: #334155;
+    position: relative;
+    padding: 8px;
+    align-items: center;
+    background: #334155;
     color: #fff;
-		border-radius: 4px;
+    border-radius: 4px;
 
-		.league-info {
-			display: flex;
-			flex-grow: 1;
-			justify-content: center;
-			gap: 6px;
-			align-items: center;
-		}
+    .league-info {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+      gap: 6px;
+      align-items: center;
+    }
 
-		.news-detail-league-ranking-item {
-			width: 100%;
-			display: flex;
-			justify-content: flex-start;
-			padding: 10px 16px;
-			gap: 6px;
-			cursor: pointer;
-			border: none;
-			border-radius: 0px;
-			background-color: transparent;
-			align-items: center;
-			font-style: normal;
-			font-weight: 400;
-			font-size: 14px;
-			line-height: 21px;
-			color: #fff;
-
-			&:hover {
-				background-color: #293445;
-			}
-
-			img {
-				display: block;
-				width: 24px;
-				min-width: 24px;
-				height: 24px;
-				object-fit: cover;
-			}
-
-			&:focus {
-				outline: none;
-			}
-		}
-
-		.league-image {
-			display: block;
-			width: 24px;
-			min-width: 24px;
-			height: 24px;
-			object-fit: cover;
-		}
-
-		.league-name {
-			font-style: normal;
-			font-weight: 400;
-			font-size: 14px;
-			line-height: 21px;
-			color: #fff;
-			font-family: 'Poppins';
-		}
-
-		.btn-league-dropdown {
-			display: flex;
-			min-width: 32px;
-			height: 32px;
-			justify-content: center;
-			align-items: center;
-			cursor: pointer;
-			border: none;
-			border-radius: 4px;
-			background-color: #293445;
-
-			&:focus {
-				outline: none;
-			}
-		}
-
-		.hidden {
-			display: none;
-		}
-
-		.show {
-			display: flex;
-		}
-
-		.news-detail-list-league-ranking-dropdown {
-			position: absolute;
-			top: 45px;
-			left: 0;
-			width: 100%;
-			height: auto;
-			background-color: #1e293b;
+    .news-detail-league-ranking-item {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding: 10px 16px;
+      gap: 6px;
+      cursor: pointer;
+      border: none;
+      border-radius: 0px;
+      background-color: transparent;
+      align-items: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
       color: #fff;
-			z-index: 999;
-			display: flex;
-			flex-direction: column;
-			border-radius: 4px;
 
-		}
+      &:hover {
+        background-color: #293445;
+      }
 
-		@include mq(max_md) {
-			display: flex;
-		}
+      img {
+        display: block;
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+        object-fit: cover;
+      }
 
+      &:focus {
+        outline: none;
+      }
+    }
 
-	}
+    .league-image {
+      display: block;
+      width: 24px;
+      min-width: 24px;
+      height: 24px;
+      object-fit: cover;
+    }
+
+    .league-name {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #fff;
+      font-family: "Poppins";
+    }
+
+    .btn-league-dropdown {
+      display: flex;
+      min-width: 32px;
+      height: 32px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      background-color: #293445;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .show {
+      display: flex;
+    }
+
+    .news-detail-list-league-ranking-dropdown {
+      position: absolute;
+      top: 45px;
+      left: 0;
+      width: 100%;
+      height: auto;
+      background-color: #1e293b;
+      color: #fff;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      border-radius: 4px;
+    }
+
+    @include mq(max_md) {
+      display: flex;
+    }
+  }
 }
-
 
 .common-news-detail-group-table-league-ranking {
   width: 100%;
@@ -1576,7 +1579,7 @@ a {
   .small-column {
     min-width: 40px;
     max-width: 40px;
-    height: 40px;;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1604,7 +1607,7 @@ a {
 
   .group-row {
     display: flex;
-     border-bottom: 1px solid #334155;
+    border-bottom: 1px solid #334155;
     .small-column {
       &:first-child {
         background-color: #475569;
@@ -1631,6 +1634,105 @@ a {
       overflow: hidden;
       text-overflow: ellipsis;
     }
+  }
+}
 
+.list-club-of-match-block-wrapper {
+  margin: 16px 0px;
+  background-color: #1e293b;
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+  padding: 24px 24px 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .match-score {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .list-club-of-match-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .match-info-detail-wrapper {
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 30px;
+
+    @include mq(max_md) {
+      padding: 0px 16px;
+    }
+
+    .info-detail-line {
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+
+      .elapsed-value {
+        background-color: #576172;
+        border-radius: 5px;
+        display: inline-block;
+        margin-left: 5px;
+        padding: 2px 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .value {
+        margin-left: 5px;
+        font-weight: bold;
+      }
+    }
+  }
+  .list-club-of-match-item {
+    display: flex;
+    align-items: center;
+
+    .club-info-detail-wrapper {
+      display: flex;
+      flex-direction: column;
+      @include mq(max_md) {
+        display: none;
+      }
+    }
+
+    .club-info-line {
+      margin-bottom: 14px;
+    }
+    .club-image {
+      min-width: 110px;
+      max-width: 110px;
+      height: 110px;
+      object-fit: cover;
+
+      @include mq(max_md) {
+        min-width: 54px;
+        max-width: 54px;
+        height: 54px;
+      }
+    }
+
+    &:first-child {
+      .club-info-detail-wrapper {
+        align-items: flex-end;
+        padding-right: 16px;
+      }
+    }
+
+    &:last-child {
+      .club-info-detail-wrapper {
+        align-items: flex-start;
+        padding-left: 16px;
+      }
+    }
   }
 }
