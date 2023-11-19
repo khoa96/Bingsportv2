@@ -43,6 +43,9 @@
         </div>
         <!-- VIEW MATCH KHI CẦN UPGRADE -->
         <div class="view-match-with-upgrade-wrapper">
+          <p class="message-trial-for-mobile-only">
+            Your 10-minute trial period for today has expired, please upgrade your account to continue watching.
+          </p>
           <div class="media-box-wrapper">
             <div class="view-match-media-wrapper">
               <div class="front-mask-content-wrapper">
@@ -55,7 +58,8 @@
                 </p>
                 <div class="bottom-box-content-wrapper">
                   <div class="top-content">
-                    <span class="month-label-txt">12 months</span>
+                    <span class="month-label-txt txt-for-pc">12 months</span>
+                    <span class="month-label-txt txt-for-mb">12 months - $82.00</span>
                     <span class="main-value-txt">ONLY <span class="large-text">$ 6.8</span></span>
                     <span class="per-month-txt">per month</span>
                   </div>
@@ -95,6 +99,35 @@
           </div>
         </div>
         <!-- VIEW MATCH KHI CẦN UPGRADE  -->
+
+        <!-- VIEW MATCH INCOMING(KHI CHƯA BẮT ĐẦU TRẬN ĐÂU) -->
+        <div class="view-match-incoming-wrapper">
+          <div class="media-box-wrapper">
+            <div class="view-match-media-wrapper">
+              <div class="notify-block-wrapper">
+                <div class="icon-left-wrapper">
+                  <img src="./images/icon-notify-1.png" class="icon-notify" alt="">
+                </div>
+                <div class="message-detail-wrapper">
+                  <h3 class="match-will-start">The match will start in 51m 35s</h3>
+                  <span class="timestamp-txt">November 19, 18:00</span>
+                </div>
+
+                <div class="notify-me-wrapper">
+                  <img src="./images/icon-notify-2.png" class="icon-notify" alt="">
+                  <span class="txt-value">Notify me</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- VIEW MATCH INCOMING(KHI CHƯA BẮT ĐẦU TRẬN ĐÂU) -->
+
+        <!-- VIEW MATCH KHI TRẬN ĐẤU ĐƯỢC DIỄN RA -->
+         <div class="view-match-playing">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/zsc4JhnthHc?si=gHhBMJ2Cw2wu4e7J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <!-- VIEW MATCH KHI TRẬN ĐẤU ĐƯỢC DIỄN RA -->
 
         <!-- START CONTROL VIEW MATCH  -->
         <div class="box-control-media-wrapper">
@@ -211,8 +244,8 @@
                 <span class="value">19-Jun-2023</span>
               </div>
             </div>
-           <div class="list-club-of-match-item">
-               <img src="./images/club-2.png" class="club-image" alt="">
+            <div class="list-club-of-match-item">
+              <img src="./images/club-2.png" class="club-image" alt="">
               <div class="club-info-detail-wrapper">
                 <div class="club-info-line">
                   <span class="label-txt">Home team:</span>

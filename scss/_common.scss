@@ -1209,6 +1209,128 @@ a {
   .media-box-wrapper {
     margin-top: 24px;
   }
+
+  .view-match-with-upgrade-wrapper {
+    .message-trial-for-mobile-only {
+      margin: 12px 0px;
+      display: none;
+      width: 100%;
+      background: rgb(255, 170, 0);
+      color: rgb(17, 17, 17);
+      font-size: 16px;
+      font-weight: 600;
+      padding: 0.75rem 1.25rem;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+
+      display: none;
+
+      @include mq(max_md) {
+        display: block;
+      }
+    }
+  }
+
+  .view-match-incoming-wrapper {
+    width: 100%;
+    height: 100%;
+    .view-match-media-wrapper {
+      align-items: flex-end;
+      padding-bottom: 50px;
+      @include mq(max_md) {
+        padding-bottom: 24px;
+      }
+    }
+
+    .notify-block-wrapper {
+      display: flex;
+      align-items: center;
+      display: flex;
+      align-items: center;
+      background: #000000ab;
+      padding: 10px 20px;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 14px;
+
+      @include mq(max_md) {
+        padding: 8px 10px;
+      }
+    }
+
+    .icon-notify {
+      min-width: 24px;
+      max-width: 24px;
+      height: 24px;
+      object-fit: cover;
+
+      @include mq(max_md) {
+        min-width: 16px;
+        max-width: 16px;
+        height: 16px;
+      }
+    }
+
+    .message-detail-wrapper {
+      margin: 0px 60px 0px 20px;
+
+      @include mq(max_md) {
+        margin: 0px 30px 0px 16px;
+      }
+
+      .match-will-start {
+        font-size: 18px;
+        @include mq(max_md) {
+          font-size: 14px;
+        }
+      }
+      .timestamp-txt {
+        font-size: 16px;
+        margin-top: 4px;
+        color: rgba(255, 255, 255, 0.6);
+
+        @include mq(max_md) {
+          font-size: 13px;
+        }
+      }
+    }
+
+    .notify-me-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #414144;
+      padding: 5px 15px;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 14px;
+      min-width: max-content;
+
+      @include mq(max_md) {
+        padding: 4px 8px;
+        font-size: 12px;
+      }
+
+      .txt-value {
+        margin-left: 4px;;
+        position: relative;
+        top: 2px;
+      }
+    }
+
+  }
+  .view-match-playing {
+     width: 100%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
   .view-match-media-wrapper {
     width: 100%;
     height: 690px;
@@ -1220,6 +1342,12 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
+
+    @include mq(max_md) {
+      width: 100%;
+      height: 195px;
+      padding: 10px;
+    }
   }
 
   .front-mask-content-wrapper {
@@ -1234,10 +1362,21 @@ a {
     justify-content: center;
     align-items: center;
 
+    @include mq(max_md) {
+      width: 100%;
+      height: auto;
+      background-image: unset;
+      background-color: unset;
+    }
+
     .big-logo {
       min-width: 263px;
       height: 33px;
       object-fit: cover;
+
+      @include mq(max_md) {
+        display: none;
+      }
     }
 
     .content-description {
@@ -1246,6 +1385,10 @@ a {
       font-size: 28px;
       color: #fff;
       text-align: center;
+
+       @include mq(max_md) {
+        display: none;
+      }
     }
 
     .bottom-box-content-wrapper {
@@ -1255,6 +1398,13 @@ a {
       background-color: #1e293b;
       border-radius: 55px;
 
+      @include mq(max_md) {
+        min-width: 100%;
+        max-width: 100%;
+        padding: 12px;
+        border-radius: unset;;
+      }
+
       .top-content {
         width: 100%;
         display: flex;
@@ -1263,8 +1413,25 @@ a {
         flex-direction: column;
         margin-bottom: 16px;
 
+
         .month-label-txt {
           font-size: 18px;
+        }
+
+        .txt-for-pc {
+          display: block;
+
+          @include  mq(max_md) {
+            display: none;
+          }
+        }
+
+         .txt-for-mb {
+          display: none;
+
+          @include  mq(max_md) {
+            display: block;
+          }
         }
 
         .main-value-txt {
@@ -1274,6 +1441,10 @@ a {
           margin-top: 5px;
           align-items: center;
 
+          @include mq(max_md) {
+            display: none;
+          }
+
           .large-text {
             margin-left: 10px;
             font-size: 24px;
@@ -1282,6 +1453,9 @@ a {
 
         .per-month-txt {
           font-size: 14px;
+           @include mq(max_md) {
+            display: none;
+          }
         }
       }
 
