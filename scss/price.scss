@@ -2,7 +2,7 @@
 @import "variables";
 @import "mixins";
 
-.page-price-wrapper {
+.price-page-wrapper {
   width: 100%;
   height: auto;
 
@@ -87,7 +87,7 @@
     margin-top: 16px;;
     }
   }
-  .banner-title {
+  .feature-title {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -113,7 +113,7 @@
     }
   }
 
-  .list-benefit {
+  .list-feature-of-payment {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +124,7 @@
     }
   }
 
-  .benefit-item {
+  .feature-of-payment-item {
     align-items: center;
     background-attachment: fixed;
     background: hsla(0, 0%, 100%, 0.05);
@@ -189,7 +189,7 @@
     }
   }
 }
-.price-list-step-wrapper {
+.price-page-list-step-to-payment-wrapper {
   width: 100%;
   height: auto;
   background-color: rgba(15, 23, 42, 1);
@@ -200,18 +200,18 @@
     padding: 40px 0px 48px;
   }
 
-  .price-list-step-content {
+  .list-step-choose-price-content {
     padding-bottom: 30px;
     border-bottom: 1px solid #334155;
   }
 
-  .step-wrapper {
+  .step-choose-price-detail-wrapper {
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
-    .number {
+    .step-number {
       min-width: 36px;
       max-width: 36px;
       height: 36px;
@@ -242,7 +242,7 @@
       }
     }
 
-    .step-title {
+    .step-choose-price-title {
       margin: 0;
       padding: 0;
       font-style: normal;
@@ -278,7 +278,7 @@
     }
   }
 
-  .list-match-plan {
+  .list-choose-price-to-payment {
     width: 100%;
     display: flex;
     align-items: center;
@@ -289,7 +289,7 @@
       flex-direction: column;
       margin-top: 24px;
     }
-    .plan-item {
+    .choose-price-to-payment-item {
       min-width: calc((100% - 48px) / 3);
       max-width: calc((100% - 48px) / 3);
       height: auto;
@@ -340,14 +340,14 @@
         }
       }
 
-      .plan-item-content {
+      .choose-price-to-payment-item-content {
         width: 100%;
       }
 
       .highlight {
         color: #305dff;
       }
-      .plan-title {
+      .step-choose-price-title {
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -365,7 +365,7 @@
         }
       }
 
-      .price-wrapper {
+      .price-detail-wrapper {
         display: flex;
         flex-direction: column;
         margin: 6px 0px;
@@ -501,7 +501,7 @@
         }
       }
 
-      .plan-description {
+      .step-choose-price-footer {
         display: flex;
         align-items: center;
         margin-top: 20px;
@@ -526,7 +526,7 @@
         }
       }
 
-      .plan-btn-block {
+      .upgrade-block-wrapper {
         width: 100%;
         display: flex;
         justify-content: flex-end;
@@ -556,7 +556,7 @@
     flex-direction: column;
   }
 
-  .create-account-form-wrapper {
+  .register-new-account-step-wrapper {
     margin-top: 24px;
     display: flex;
     width: 100%;
@@ -569,7 +569,7 @@
     }
   }
 
-  .create-account-form {
+  .register-account-form-wrapper {
     max-width: 100%;
     min-width: 100%;
 
@@ -579,9 +579,9 @@
       margin-right: 0;
     }
 
-    .enter-coupon-code-wrapper {
+    .register-account-form {
       width: 100%;
-      .input-coupon-code-wrapper {
+      .register-account-input {
         width: 100%;
         position: relative;
         display: flex;
@@ -590,7 +590,7 @@
           flex-direction: column;
         }
 
-        .form-item {
+        .group-form-item {
           display: flex;
           flex-direction: column;
           width: 100%;
@@ -707,7 +707,7 @@
     }
   }
 
-  .create-by-viva-account {
+  .register-new-account-by-viva {
     flex-grow: 1;
     margin-top: 16px;
     @include mq(max_md) {
@@ -761,7 +761,7 @@
   }
 }
 
-.choose-method-payment-wrapper {
+.step-choose-payment-type-wrapper {
   width: 100%;
   margin-top: 72px;
 
@@ -777,7 +777,7 @@
       margin-top: 16px;
     }
 
-    .list-payment-type {
+    .payment-method-tabs {
       display: flex;
       align-items: center;
       gap: 12px 0px;
@@ -824,7 +824,7 @@
         }
       }
 
-      .non-efundable-tab {
+      .tab-no-refundable-content {
         border-bottom: none;
         position: relative;
         z-index: 999;
@@ -877,7 +877,7 @@
         }
       }
 
-      .payment-info {
+      .payment-method-detail {
         display: flex;
         flex-grow: 1;
         flex-direction: row;
@@ -899,12 +899,12 @@
           padding: 0;
         }
 
-        .list-payment {
+        .list-method-type {
           display: flex;
           align-items: center;
           gap: 4px;
 
-          .payment-item {
+          .method-type-item {
             background: #ffffff;
             border: 1px solid #e2e8f0;
             border-radius: 4px;
@@ -950,7 +950,7 @@
       }
     }
 
-    .non-efundable-content-tab {
+    .non-refundable-content-tab {
       width: 100%;
       height: auto;
 
@@ -993,7 +993,7 @@
         }
       }
 
-      .list-chain {
+      .list-cryptocurrency-to-pay {
         display: flex;
         align-items: center;
         gap: 40px;
@@ -1005,7 +1005,7 @@
         }
       }
 
-      .chain-item {
+      .cryptocurrency-to-pay-item {
         width: fit-content;
         display: flex;
         flex-direction: column;
@@ -1015,7 +1015,7 @@
           margin-bottom: 0 !important;
         }
 
-        .chain-title {
+        .cryptocurrency-title {
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
@@ -1027,11 +1027,11 @@
           }
         }
 
-        .list-chain-box {
+        .list-cryptocurrency-to-pay-box {
           display: flex;
           align-items: center;
 
-          .chain-box-item {
+          .box-cryptocurrency-item {
             border: 1px solid #e2e8f0;
             border-radius: 8px;
             display: flex;
@@ -1047,14 +1047,14 @@
               margin-right: 0;
             }
 
-            .chain-image {
+            .cryptocurrency-image {
               min-width: 24px;
               max-width: 24px;
               height: 24px;
               object-fit: cover;
             }
 
-            .chain-name {
+            .cryptocurrency-name {
               font-style: normal;
               font-weight: 400;
               font-size: 16px;
@@ -1077,7 +1077,7 @@
   }
 }
 
-.payment-detail-wrapper {
+.result-payment-wrapper {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 0px 16px 16px 16px;
@@ -1094,7 +1094,7 @@
     flex-direction: column;
   }
 
-  .table-payment-detail-wrapper,
+  .table-result-payment-wrapper,
   .term-of-service-wrapper {
     width: 50%;
     flex-grow: 1;
@@ -1129,13 +1129,13 @@
       margin: 16px 0px;
     }
 
-    .table-row {
+   .result-payment-table-row{
       padding: 10px 0px;
       border-bottom: 1px solid rgba(237, 242, 247, 0.1);
       display: flex;
       justify-content: space-between;
 
-      .title {
+      .column-label {
         font-size: 16px;
         line-height: 24px;
         color: #fff;
@@ -1144,7 +1144,7 @@
         gap: 6px;
       }
 
-      .value {
+      .column-value {
         display: flex;
         align-items: center;
         gap: 8px;
@@ -1154,7 +1154,7 @@
         color: #718096;
       }
 
-    .txt-hightlight {
+    .txt-highlight {
       text-decoration: none;
       color: #f91e4e;
     }
@@ -1329,7 +1329,7 @@
   }
 }
 
-.list-channel-wrapper {
+.list-channel-available-in-your-area {
   width: 100%;
   background: #1e293b;
   padding: 54px 0px;
@@ -1338,7 +1338,7 @@
     display: none;
   }
 
-  .list-channel-content {
+  .list-channel-available-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1411,7 +1411,7 @@
       }
     }
 
-    .list-sport {
+    .list-channel-available {
       margin: 0;
       padding: 0;
       list-style: none;
@@ -1427,7 +1427,7 @@
         padding: 0;
       }
 
-      li {
+      .channel-item {
         width: 80px;
         height: 80px;
 
