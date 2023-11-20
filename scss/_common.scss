@@ -822,22 +822,35 @@ a {
   height: auto;
 }
 
+.hot-match {
+  .club-name-txt, .score-match {
+    color: #ffd533 !important;
+  }
+}
+
 .match-table-row {
-  display: flex;
-  align-items: center;
   background-color: #1e293b;
   border-bottom: 1px solid #334155;
   padding: 10px 16px;
+   @include mq(max_md) {
+      padding: 0;
+      flex-direction: column;
+      border-bottom: none;
+      margin-bottom: 10px;
+    }
 
   &:hover {
     background-color: #293445;
   }
-
-  @include mq(max_md) {
-    padding: 0;
-    flex-direction: column;
-    border-bottom: none;
-    margin-bottom: 10px;
+  a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    @include mq(max_md) {
+      flex-direction: column;
+    }
   }
 
   .match-left-column {
@@ -961,6 +974,7 @@ a {
 
         .club-name-txt {
           margin-right: 8px;
+          text-align: right;
         }
       }
 
@@ -1136,12 +1150,11 @@ a {
   }
   a {
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #ffffff;
     margin: 0px 3px;
 
     &:hover {
@@ -1153,7 +1166,7 @@ a {
       font-weight: 400;
       font-size: 12px;
       line-height: 18px;
-      color: #1a202c;
+      color: #fff !important;
     }
   }
 
@@ -1312,23 +1325,24 @@ a {
       }
 
       .txt-value {
-        margin-left: 4px;;
+        margin-left: 4px;
         position: relative;
         top: 2px;
       }
     }
-
   }
   .view-match-playing {
-     width: 100%;
+    width: 100%;
     height: 690px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 14px 0px;
 
     @include mq(max_md) {
       width: 100%;
-      height: 195px;
+      height: calc(100vw * 9 / 16);
+      min-height: 195px;
     }
 
     iframe {
@@ -1350,7 +1364,9 @@ a {
 
     @include mq(max_md) {
       width: 100%;
-      height: 195px;
+      min-height: 195px;
+      height: calc(100vw * 9 / 16);
+
       padding: 10px;
     }
   }
@@ -1391,7 +1407,7 @@ a {
       color: #fff;
       text-align: center;
 
-       @include mq(max_md) {
+      @include mq(max_md) {
         display: none;
       }
     }
@@ -1407,7 +1423,7 @@ a {
         min-width: 100%;
         max-width: 100%;
         padding: 12px;
-        border-radius: unset;;
+        border-radius: unset;
       }
 
       .top-content {
@@ -1418,7 +1434,6 @@ a {
         flex-direction: column;
         margin-bottom: 16px;
 
-
         .month-label-txt {
           font-size: 18px;
         }
@@ -1426,15 +1441,15 @@ a {
         .txt-for-pc {
           display: block;
 
-          @include  mq(max_md) {
+          @include mq(max_md) {
             display: none;
           }
         }
 
-         .txt-for-mb {
+        .txt-for-mb {
           display: none;
 
-          @include  mq(max_md) {
+          @include mq(max_md) {
             display: block;
           }
         }
@@ -1458,7 +1473,7 @@ a {
 
         .per-month-txt {
           font-size: 14px;
-           @include mq(max_md) {
+          @include mq(max_md) {
             display: none;
           }
         }

@@ -34,7 +34,7 @@
     padding: 10px 16px;
     display: flex;
     font-size: 14px;
-    color: #fff;
+    color: #fff !important;
     align-items: center;
 
     &:hover {
@@ -55,7 +55,7 @@
 
     .common-news-category-label {
       font-size: 14px;
-      color: #fff;
+      color: #fff !important;
     }
   }
 }
