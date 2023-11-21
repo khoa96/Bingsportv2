@@ -24,17 +24,17 @@
             <div class="choose-price-to-payment-item">
               <div class="choose-price-to-payment-item-content">
                 <h4 class="step-choose-price-title">
-                  <span>1 month</span>
+                  <p>1 month</p>
                 </h4>
                 <div class="price-detail-wrapper">
-                  <div class="primary-price">
+                  <div class="price-of-package-wrapper">
                     <div class="left-content">
-                      <span class="sign">$</span>
-                      <span class="price">24</span>
-                      <span class="month">/mo</span>
+                      <p class="sign">$</p>
+                      <p class="price">24</p>
+                      <p class="month">/mo</p>
                     </div>
                     <div class="upgrade-block-wrapper">
-                      <button class="btn-select-plan">Upgrade</button>
+                      <button class="btn-upgrade-package">Upgrade</button>
                     </div>
                   </div>
                 </div>
@@ -55,21 +55,21 @@
             <div class="choose-price-to-payment-item active">
               <div class="choose-price-to-payment-item-content">
                 <h4 class="step-choose-price-title">
-                  <span>12 Months</span>
+                  <p>12 Months</p>
                 </h4>
                 <div class="price-detail-wrapper">
                   <div class="top-price">
                     <span class="prev-price">$24</span>
                     <span class="save-label">Save 72%</span>
                   </div>
-                  <div class="primary-price">
+                  <div class="price-of-package-wrapper">
                     <div class="left-content">
-                      <span class="sign">$</span>
-                      <span class="price">6.8</span>
-                      <span class="month">/mo</span>
+                      <p class="sign">$</p>
+                      <p class="price">6.8</p>
+                      <p class="month">/mo</p>
                     </div>
                     <div class="upgrade-block-wrapper">
-                      <button class="btn-select-plan">Upgrade</button>
+                      <button class="btn-upgrade-package">Upgrade</button>
                     </div>
                   </div>
                 </div>
@@ -90,21 +90,21 @@
             <div class="choose-price-to-payment-item">
               <div class="choose-price-to-payment-item-content">
                 <h4 class="step-choose-price-title">
-                  <span>3 Months</span>
+                  <p>3 Months</p>
                 </h4>
                 <div class="price-detail-wrapper">
                   <div class="top-price">
-                    <span class="prev-price">$24</span>
-                    <span class="save-label">Save 31%</span>
+                    <p class="prev-price">$24</p>
+                    <p class="save-label">Save 31%</p>
                   </div>
-                  <div class="primary-price">
+                  <div class="price-of-package-wrapper">
                     <div class="left-content">
-                      <span class="sign">$</span>
-                      <span class="price">16.7</span>
-                      <span class="month">/mo</span>
+                      <p class="sign">$</p>
+                      <p class="price">16.7</p>
+                      <p class="month">/mo</p>
                     </div>
                     <div class="upgrade-block-wrapper">
-                      <button class="btn-select-plan">Upgrade</button>
+                      <button class="btn-upgrade-package">Upgrade</button>
                     </div>
                   </div>
                 </div>
