@@ -124,9 +124,12 @@
         <!-- VIEW MATCH INCOMING(KHI CHƯA BẮT ĐẦU TRẬN ĐÂU) -->
 
         <!-- VIEW MATCH KHI TRẬN ĐẤU ĐƯỢC DIỄN RA -->
-         <div class="view-match-playing">
+        <div class="media-box-wrapper">
+          <div class="view-match-playing">
            <iframe width="560" height="315" src="https://www.youtube.com/embed/zsc4JhnthHc?si=gHhBMJ2Cw2wu4e7J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
+
         <!-- VIEW MATCH KHI TRẬN ĐẤU ĐƯỢC DIỄN RA -->
 
         <!-- START CONTROL VIEW MATCH  -->
@@ -274,134 +277,171 @@
               <span class="time-label">Wednesday, 15/11</span>
             </div>
 
-            <div class="table-match-wrapper">
-              <div class="match-table-row">
-                <div class="match-left-column">
-                  <div class="live-status-wrapper">
-                    <div class="livenow">
-                      <div></div>
-                    </div>
-                    <span class="live-label">LIVE</span>
+             <div class="table-match-wrapper">
+                  <div class="match-table-row hot-match">
+                    <a href="#">
+                      <div class="match-left-column">
+                        <span class="time-label">
+                          <strong>22:00</strong>
+                        </span>
+                        <span class="league-name-txt">FIBA Europe Cup</span>
+                      </div>
+                      <div class="match-right-column">
+                        <div class="club-list-info-wrapper">
+                          <div class="club-info-item-wrapper first-club">
+                            <span class="club-name-txt">Westchester Knicks</span>
+                            <img src="./images/league-1.png" class="club-image" alt="">
+                          </div>
+                          <span class="score-match">0 : 0 </span>
+                          <div class="club-info-item-wrapper second-club">
+                            <img src="./images/league-2.png" class="club-image" alt="">
+                            <span class="club-name-txt">Greensboro Swarm</span>
+                          </div>
+                        </div>
+                        <button class="btn-watch">
+                          <span>Watch</span>
+                          <div class="arrow-right"></div>
+                        </button>
+                      </div>
+                    </a>
                   </div>
-                  <span class="league-name-txt">FIBA Europe Cup</span>
-                </div>
-                <div class="match-right-column">
-                  <div class="club-list-info-wrapper">
-                    <div class="club-info-item-wrapper first-club">
-                      <span class="club-name-txt">Westchester Knicks nguyen dang khoa</span>
-                      <img src="./images/league-1.png" class="club-image" alt="">
-                    </div>
-                    <span class="score-match">0 : 0 </span>
-                    <div class="club-info-item-wrapper second-club">
-                      <img src="./images/league-2.png" class="club-image" alt="">
-                      <span class="club-name-txt">Greensboro Swarm nguyen dang khoa nguyen dang kho </span>
-                    </div>
+                  <div class="match-table-row">
+                    <a href="#" target="" title="">
+                      <div class="match-left-column">
+                        <div class="live-status-wrapper">
+                          <div class="livenow">
+                            <div></div>
+                          </div>
+                          <span class="live-label">LIVE</span>
+                        </div>
+                        <span class="league-name-txt">FIBA Europe Cup</span>
+                      </div>
+                      <div class="match-right-column">
+                        <div class="club-list-info-wrapper">
+                          <div class="club-info-item-wrapper first-club">
+                            <span class="club-name-txt">Westchester Knicks nguyen dang khoa</span>
+                            <img src="./images/league-1.png" class="club-image" alt="">
+                          </div>
+                          <span class="score-match">0 : 0 </span>
+                          <div class="club-info-item-wrapper second-club">
+                            <img src="./images/league-2.png" class="club-image" alt="">
+                            <span class="club-name-txt">Greensboro Swarm nguyen dang khoa nguyen dang kho </span>
+                          </div>
+                        </div>
+                        <button class="btn-watch">
+                          <span>Watch</span>
+                          <div class="arrow-right"></div>
+                        </button>
+                      </div>
+                    </a>
                   </div>
-                  <button class="btn-watch">
-                    <span>Watch</span>
-                    <div class="arrow-right"></div>
-                  </button>
-                </div>
-              </div>
-              <div class="match-table-row">
-                <div class="match-left-column">
-                  <div class="live-status-wrapper">
-                    <div class="livenow">
-                      <div></div>
-                    </div>
-                    <span class="live-label">LIVE</span>
+                  <div class="match-table-row">
+                    <a href="#">
+                      <div class="match-left-column">
+                        <div class="live-status-wrapper">
+                          <div class="livenow">
+                            <div></div>
+                          </div>
+                          <span class="live-label">LIVE</span>
+                        </div>
+                        <span class="league-name-txt">FIBA Europe Cup</span>
+                      </div>
+                      <div class="match-right-column">
+                        <div class="club-list-info-wrapper">
+                          <div class="club-info-item-wrapper first-club">
+                            <span class="club-name-txt">Westchester Knicks</span>
+                            <img src="./images/league-1.png" class="club-image" alt="">
+                          </div>
+                          <span class="score-match">0 : 0 </span>
+                          <div class="club-info-item-wrapper second-club">
+                            <img src="./images/league-2.png" class="club-image" alt="">
+                            <span class="club-name-txt">Greensboro Swarm</span>
+                          </div>
+                        </div>
+                        <button class="btn-watch">
+                          <span>Watch</span>
+                          <div class="arrow-right"></div>
+                        </button>
+                      </div>
+                    </a>
                   </div>
-                  <span class="league-name-txt">FIBA Europe Cup</span>
-                </div>
-                <div class="match-right-column">
-                  <div class="club-list-info-wrapper">
-                    <div class="club-info-item-wrapper first-club">
-                      <span class="club-name-txt">Westchester Knicks</span>
-                      <img src="./images/league-1.png" class="club-image" alt="">
-                    </div>
-                    <span class="score-match">0 : 0 </span>
-                    <div class="club-info-item-wrapper second-club">
-                      <img src="./images/league-2.png" class="club-image" alt="">
-                      <span class="club-name-txt">Greensboro Swarm</span>
-                    </div>
+                  <div class="match-table-row">
+                    <a href="#">
+                      <div class="match-left-column">
+                        <div class="live-status-wrapper">
+                          <div class="livenow">
+                            <div></div>
+                          </div>
+                          <span class="live-label">2nd Half: 69</span>
+                        </div>
+                        <span class="league-name-txt">FIBA Europe Cup</span>
+                      </div>
+                      <div class="match-right-column">
+                        <div class="club-list-info-wrapper">
+                          <div class="club-info-item-wrapper first-club">
+                            <span class="club-name-txt">Westchester Knicks</span>
+                            <img src="./images/league-1.png" class="club-image" alt="">
+                          </div>
+                          <span class="score-match">0 : 0 </span>
+                          <div class="club-info-item-wrapper second-club">
+                            <img src="./images/league-2.png" class="club-image" alt="">
+                            <span class="club-name-txt">Greensboro Swarm</span>
+                          </div>
+                        </div>
+                        <button class="btn-watch">
+                          <span>Watch</span>
+                          <div class="arrow-right"></div>
+                        </button>
+                      </div>
+                    </a>
                   </div>
-                  <button class="btn-watch">
-                    <span>Watch</span>
-                    <div class="arrow-right"></div>
-                  </button>
-                </div>
-              </div>
-              <div class="match-table-row">
-                <div class="match-left-column">
-                  <div class="live-status-wrapper">
-                    <div class="livenow">
-                      <div></div>
-                    </div>
-                    <span class="live-label">2nd Half: 69</span>
+                  <div class="match-table-row">
+                    <a href="#">
+                      <div class="match-left-column">
+                        <span class="time-label">
+                          <strong>22:00</strong>
+                        </span>
+                        <span class="league-name-txt">FIBA Europe Cup</span>
+                      </div>
+                      <div class="match-right-column">
+                        <div class="club-list-info-wrapper">
+                          <div class="club-info-item-wrapper first-club">
+                            <span class="club-name-txt">Westchester Knicks</span>
+                            <img src="./images/league-1.png" class="club-image" alt="">
+                          </div>
+                          <span class="score-match">0 : 0 </span>
+                          <div class="club-info-item-wrapper second-club">
+                            <img src="./images/league-2.png" class="club-image" alt="">
+                            <span class="club-name-txt">Greensboro Swarm</span>
+                          </div>
+                        </div>
+                        <button class="btn-watch">
+                          <span>Watch</span>
+                          <div class="arrow-right"></div>
+                        </button>
+                      </div>
+                    </a>
                   </div>
-                  <span class="league-name-txt">FIBA Europe Cup</span>
-                </div>
-                <div class="match-right-column">
-                  <div class="club-list-info-wrapper">
-                    <div class="club-info-item-wrapper first-club">
-                      <span class="club-name-txt">Westchester Knicks</span>
-                      <img src="./images/league-1.png" class="club-image" alt="">
-                    </div>
-                    <span class="score-match">0 : 0 </span>
-                    <div class="club-info-item-wrapper second-club">
-                      <img src="./images/league-2.png" class="club-image" alt="">
-                      <span class="club-name-txt">Greensboro Swarm</span>
-                    </div>
+                  <div class="match-table-row">
+                    <a href="#">
+                      <div class="match-left-column">
+                        <span class="time-label">
+                          <strong>22:00</strong>
+                        </span>
+                        <span class="league-name-txt">FIBA Europe Cup</span>
+                      </div>
+                      <div class="match-right-column">
+                        <div class="club-list-info-wrapper">
+                          <span class="txt-detail">The RSM Classic, Second Round</span>
+                        </div>
+                        <button class="btn-watch">
+                          <span>Watch</span>
+                          <div class="arrow-right"></div>
+                        </button>
+                      </div>
+                    </a>
                   </div>
-                  <button class="btn-watch">
-                    <span>Watch</span>
-                    <div class="arrow-right"></div>
-                  </button>
                 </div>
-              </div>
-              <div class="match-table-row">
-                <div class="match-left-column">
-                  <span class="time-label">
-                    <strong>22:00</strong>
-                  </span>
-                  <span class="league-name-txt">FIBA Europe Cup</span>
-                </div>
-                <div class="match-right-column">
-                  <div class="club-list-info-wrapper">
-                    <div class="club-info-item-wrapper first-club">
-                      <span class="club-name-txt">Westchester Knicks</span>
-                      <img src="./images/league-1.png" class="club-image" alt="">
-                    </div>
-                    <span class="score-match">0 : 0 </span>
-                    <div class="club-info-item-wrapper second-club">
-                      <img src="./images/league-2.png" class="club-image" alt="">
-                      <span class="club-name-txt">Greensboro Swarm</span>
-                    </div>
-                  </div>
-                  <button class="btn-watch">
-                    <span>Watch</span>
-                    <div class="arrow-right"></div>
-                  </button>
-                </div>
-              </div>
-              <div class="match-table-row">
-                <div class="match-left-column">
-                  <span class="time-label">
-                    <strong>22:00</strong>
-                  </span>
-                  <span class="league-name-txt">FIBA Europe Cup</span>
-                </div>
-                <div class="match-right-column">
-                  <div class="club-list-info-wrapper">
-                    <span class="txt-detail">The RSM Classic, Second Round</span>
-                  </div>
-                  <button class="btn-watch">
-                    <span>Watch</span>
-                    <div class="arrow-right"></div>
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <!-- LIST MATCH INCOMING -->
@@ -430,6 +470,24 @@
     });
   });
   </script>
+  <script>
+  // Hàm tính toán chiều cao
+  function updateHeight() {
+    var wrapperWidth = $('.media-box-wrapper').width();
+    var newHeight = (wrapperWidth * 9) / 16;
+    $('.media-box-wrapper').css('height', newHeight + 'px');
+  }
+
+  // Sự kiện khi trang được tải
+  $(document).ready(function () {
+    updateHeight(); // Cập nhật chiều cao khi trang được tải
+
+    // Sự kiện resize cửa sổ
+    $(window).resize(function () {
+      updateHeight(); // Cập nhật chiều cao khi cửa sổ được resize
+    });
+  });
+</script>
 </body>
 
 </html>

@@ -297,7 +297,6 @@ a {
   justify-content: center;
   text-transform: uppercase;
   font-size: 19px;
-  border: 2px solid green;
   border-radius: 10px;
   position: relative;
   width: 95px;
@@ -1354,7 +1353,7 @@ a {
 }
 .bing-sport-live-content .view-match-playing {
   width: 100%;
-  height: 690px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1363,8 +1362,6 @@ a {
 @media only screen and (max-width: 991px) {
   .bing-sport-live-content .view-match-playing {
     width: 100%;
-    height: 56.25vw;
-    min-height: 195px;
   }
 }
 .bing-sport-live-content .view-match-playing iframe {
@@ -1373,7 +1370,7 @@ a {
 }
 .bing-sport-live-content .view-match-media-wrapper {
   width: 100%;
-  height: 690px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1383,11 +1380,14 @@ a {
   background-size: cover;
   padding: 40px;
 }
+@media (max-width: 1200px) {
+  .bing-sport-live-content .view-match-media-wrapper {
+    padding: 10px 16px;
+  }
+}
 @media only screen and (max-width: 991px) {
   .bing-sport-live-content .view-match-media-wrapper {
     width: 100%;
-    min-height: 195px;
-    height: 56.25vw;
     padding: 32px;
   }
 }
