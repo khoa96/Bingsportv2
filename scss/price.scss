@@ -370,7 +370,7 @@
         flex-direction: column;
         margin: 6px 0px;
 
-        .top-price {
+        .price-of-package__top {
           display: flex;
           align-items: center;
         }
@@ -380,7 +380,7 @@
         }
       }
 
-      .prev-price {
+      .price-of-package__prev-price {
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -409,12 +409,12 @@
         align-items: center;
         justify-content: space-between;
 
-        .left-content {
+        .price-of-package__left {
           display: flex;
           align-items: center;
         }
 
-        .sign {
+        .price-of-package__sign {
           font-style: normal;
           font-weight: 600;
           font-size: 28px;
@@ -423,7 +423,7 @@
           color: #f91e4e;
         }
 
-        .price {
+        .price-of-package__main-price {
           font-style: normal;
           font-style: normal;
           font-weight: 600;
@@ -442,7 +442,7 @@
           }
         }
 
-        .month {
+        .price-of-package__month {
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -457,7 +457,7 @@
         }
       }
 
-      .save-label {
+      .price-of-package__save-label {
         padding: 2px 10px;
         border: 1px solid #10b981;
         border-radius: 16px;
