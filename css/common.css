@@ -216,17 +216,18 @@ a {
 }
 @media only screen and (max-width: 991px) {
   .common-sub-menu {
-    margin: 16px 0px;
+    margin: 12px 0px;
   }
 }
 .common-sub-menu .sub-menu {
   display: flex;
   align-items: center;
 }
-@media only screen and (max-width: 991px) {
+@media (max-width: 1300px) {
   .common-sub-menu .sub-menu {
     max-width: 100%;
     overflow-x: auto;
+    margin-right: 32px;
   }
 }
 .common-sub-menu .sub-menu .menu-item {
@@ -953,10 +954,20 @@ a {
   display: inline-block;
   font-size: 14px;
   color: #fff;
-  max-width: 100px;
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+@media (max-width: 1300px) {
+  .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
+    max-width: 120px;
+  }
+}
+@media (max-width: 1200px) {
+  .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
+    max-width: 80px;
+  }
 }
 @media only screen and (max-width: 991px) {
   .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
