@@ -1372,8 +1372,7 @@ a {
       width: 100%;
       min-height: 195px;
       height: calc(100vw * 9 / 16);
-
-      padding: 10px;
+      padding: 32px;
     }
   }
 
@@ -1389,7 +1388,11 @@ a {
     justify-content: center;
     align-items: center;
 
-    @include mq(max_md) {
+    @media (max-width: 1200px) {
+      height: 100%;
+    }
+
+    @media (max-width: 500px) {
       width: 100%;
       height: auto;
       background-image: unset;
@@ -1425,10 +1428,10 @@ a {
       background-color: #1e293b;
       border-radius: 55px;
 
-      @include mq(max_md) {
+      @media (max-width: 768px) {
         min-width: 100%;
         max-width: 100%;
-        padding: 12px;
+        padding: 32px 24px;
         border-radius: unset;
       }
 
