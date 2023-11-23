@@ -138,13 +138,13 @@
                       <div class="match-right-column">
                         <div class="club-list-info-wrapper">
                           <div class="club-info-item-wrapper first-club">
-                            <span class="club-name-txt">Westchester Knicks nguyen dang khoa</span>
+                            <span class="club-name-txt">ABC</span>
                             <img src="./images/league-1.png" class="club-image" alt="">
                           </div>
                           <span class="score-match">0 : 0 </span>
                           <div class="club-info-item-wrapper second-club">
                             <img src="./images/league-2.png" class="club-image" alt="">
-                            <span class="club-name-txt">Greensboro Swarm nguyen dang khoa nguyen dang kho </span>
+                            <span class="club-name-txt">Greensboro Swarm nguyen dang khoa nguyen dang kho  nguyen dang khoa nguyen dang kho</span>
                           </div>
                         </div>
                         <button class="btn-watch">
