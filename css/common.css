@@ -947,6 +947,7 @@ a {
   flex-grow: 1;
   font-size: 14px;
   color: #fff;
+  width: 50%;
 }
 .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
   flex-grow: 1;
