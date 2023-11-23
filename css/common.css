@@ -969,9 +969,14 @@ a {
     max-width: 80px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
     max-width: 200px;
+  }
+}
+@media (max-width: 700px) {
+  .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
+    max-width: 150px;
   }
 }
 @media (max-width: 500px) {
