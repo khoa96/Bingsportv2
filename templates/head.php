@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="css/price.css">
 		<link rel="stylesheet" type="text/css" href="css/news.css">
 		<link rel="stylesheet" type="text/css" href="css/league.css">
+		<link rel="stylesheet" type="text/css" href="css/profile.css">
 
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
