@@ -971,7 +971,7 @@ a {
 }
 @media (max-width: 900px) {
   .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
-    max-width: 200px;
+    max-width: 150px;
   }
 }
 @media (max-width: 700px) {
@@ -979,19 +979,19 @@ a {
     max-width: 150px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
     max-width: 100px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
-    max-width: 100px;
+    max-width: 80px;
   }
 }
 @media (max-width: 350px) {
   .match-table-row .match-right-column .club-list-info-wrapper .club-name-txt {
-    max-width: 80px;
+    max-width: 60px;
   }
 }
 .match-table-row .match-right-column .club-list-info-wrapper .score-match {

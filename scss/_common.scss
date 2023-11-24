@@ -942,23 +942,22 @@ a {
         @media (max-width: 1200px) {
           max-width: 80px;
         }
+
          @media (max-width: 900px) {
-          max-width: 200px
+          max-width: 150px
         }
           @media (max-width: 700px) {
           max-width: 150px
         }
-         @media (max-width: 500px) {
-          max-width: 100px
+         @media (max-width: 600px) {
+          max-width: 100px;
         }
-          @media (max-width: 400px) {
-          max-width: 100px
-        }
-          @media (max-width: 350px) {
-          max-width: 80px
+          @media (max-width: 500px) {
+          max-width: 80px;
         }
 
-        @include mq(max_md) {
+         @media (max-width: 350px) {
+          max-width: 60px;
         }
       }
 
