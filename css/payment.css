@@ -1,71 +1,68 @@
-.page-payment-wrapper {
+.payment-with-crypto__wrapper {
   width: 100%;
   height: auto;
-  padding: 40px 0px;
-  background-color: #0F172A;
+  background-color: #0f172a;
   color: #fff;
+  padding-bottom: 60px;
+  padding-top: 24px;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper {
-    padding: 20px 0px;
+  .payment-with-crypto__wrapper {
+    padding-bottom: 32px;
+    padding-top: 12px;
   }
 }
-.page-payment-wrapper .header-block-wrapper {
+.payment-with-crypto__top-content {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
-.page-payment-wrapper .header-block-wrapper .left-block {
-  display: flex;
-  flex-direction: column;
-  gap: 8px 0px;
-}
-@media only screen and (max-width: 991px) {
-  .page-payment-wrapper .header-block-wrapper .left-block {
-    gap: 4px 0px;
-  }
-}
-.page-payment-wrapper .header-block-wrapper .left-block .title {
+.payment-with-crypto__header-wrapper .header__title {
+  color: #fff;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
   line-height: 36px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .payment-with-crypto__header-wrapper .header__title {
+    font-size: 20px;
+  }
+}
+.payment-with-crypto__header-wrapper .header__description {
   color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
   margin: 0;
   padding: 0;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .header-block-wrapper .left-block .title {
-    font-size: 20px;
-    line-height: 28px;
+  .payment-with-crypto__header-wrapper .header__description {
+    font-size: 13px;
   }
 }
-.page-payment-wrapper .header-block-wrapper .left-block .description {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer {
+.payment-with-crypto__header-timer .base-timer {
   position: relative;
   width: 56px;
   height: 56px;
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__svg {
+.payment-with-crypto__header-timer .base-timer__svg {
   transform: scaleX(-1);
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__circle {
+.payment-with-crypto__header-timer .base-timer__circle {
   fill: none;
   stroke: none;
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__path-elapsed {
+.payment-with-crypto__header-timer .base-timer__path-elapsed {
   stroke-width: 7px;
   stroke: #cbd5e0;
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__path-remaining {
+.payment-with-crypto__header-timer .base-timer__path-remaining {
   stroke-width: 7px;
   stroke-linecap: round;
   transform: rotate(90deg);
@@ -74,16 +71,16 @@
   fill-rule: nonzero;
   stroke: currentColor;
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__path-remaining.green {
+.payment-with-crypto__header-timer .base-timer__path-remaining.green {
   color: #4a5568;
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__path-remaining.orange {
+.payment-with-crypto__header-timer .base-timer__path-remaining.orange {
   color: #4a5568;
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__path-remaining.red {
+.payment-with-crypto__header-timer .base-timer__path-remaining.red {
   color: #4a5568;
 }
-.page-payment-wrapper .header-block-wrapper .right-block .base-timer__label {
+.payment-with-crypto__header-timer .base-timer__label {
   position: absolute;
   width: 56px;
   height: 56px;
@@ -100,7 +97,7 @@
   /* Gray:900 */
   color: #fff;
 }
-.page-payment-wrapper .description-detail-block {
+.payment-with-crypto__description-content {
   width: 100%;
   margin: 16px 0px 50px;
   display: flex;
@@ -110,12 +107,12 @@
   border-radius: 8px;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .description-detail-block {
+  .payment-with-crypto__description-content {
     margin: 8px 0px 24px;
     padding: 6px 8px;
   }
 }
-.page-payment-wrapper .description-detail-block .icon {
+.payment-with-crypto__description-content svg {
   min-width: 20px;
   height: 20px;
   display: flex;
@@ -124,11 +121,11 @@
   margin-right: 16px;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .description-detail-block .icon {
+  .payment-with-crypto__description-content svg {
     margin-right: 8px;
   }
 }
-.page-payment-wrapper .description-detail-block .description {
+.payment-with-crypto__description-content .txt-description {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -137,16 +134,18 @@
   margin: 0;
   padding: 0;
 }
-.page-payment-wrapper .block-payment-wrapper {
+.payment-with-crypto__qr-block {
+  display: flex;
+  align-items: center;
   display: flex;
   align-items: center;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .block-payment-wrapper {
+  .payment-with-crypto__qr-block {
     flex-direction: column;
   }
 }
-.page-payment-wrapper .block-payment-wrapper .qa-code-image {
+.payment-with-crypto__qr-block .payment-detail__left .qa-code-image {
   min-width: 215px;
   max-width: 215px;
   height: 215px;
@@ -154,16 +153,16 @@
   margin: 0px 40px;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .block-payment-wrapper .qa-code-image {
+  .payment-with-crypto__qr-block .payment-detail__left .qa-code-image {
     margin: 40px 0px;
   }
 }
-.page-payment-wrapper .block-payment-wrapper .list-item {
+.payment-with-crypto__qr-block .payment-detail__right {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
-.page-payment-wrapper .block-payment-wrapper .item {
+.payment-with-crypto__qr-block .payment-detail__item {
   width: 100%;
   height: auto;
   border: none;
@@ -177,20 +176,20 @@
   padding: 12px 24px;
   margin-bottom: 32px;
 }
-.page-payment-wrapper .block-payment-wrapper .item:last-of-type {
+.payment-with-crypto__qr-block .payment-detail__item:last-of-type {
   margin-bottom: 0;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .block-payment-wrapper .item {
+  .payment-with-crypto__qr-block .payment-detail__item {
     padding: 8px 16px;
     margin-bottom: 16px;
   }
 }
-.page-payment-wrapper .block-payment-wrapper .item .left-content {
+.payment-with-crypto__qr-block .payment-detail__info-wrapper {
   display: flex;
   flex-direction: column;
 }
-.page-payment-wrapper .block-payment-wrapper .item .left-content .label {
+.payment-with-crypto__qr-block .payment-detail__name {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -199,7 +198,7 @@
   display: inline-block;
   margin-bottom: 4px;
 }
-.page-payment-wrapper .block-payment-wrapper .item .left-content .value {
+.payment-with-crypto__qr-block .payment-detail__value {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -208,33 +207,33 @@
   word-break: break-all;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .block-payment-wrapper .item .left-content .value {
+  .payment-with-crypto__qr-block .payment-detail__value {
     font-size: 16px;
     line-height: 18px;
   }
 }
-.page-payment-wrapper .block-payment-wrapper .item .btn-copy {
+.payment-with-crypto__qr-block .payment-detail__btn-copy {
   background-color: transparent;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-  color: #F91E4E;
+  color: #f91e4e;
   cursor: pointer;
   border: none;
   outline: none;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .block-payment-wrapper .item .btn-copy {
+  .payment-with-crypto__qr-block .payment-detail__btn-copy {
     font-size: 14px;
     line-height: 21px;
   }
 }
-.page-payment-wrapper .block-payment-wrapper .item .btn-copy:focus {
+.payment-with-crypto__qr-block .payment-detail__btn-copy:focus {
   outline: none;
 }
-.page-payment-wrapper .complete-your-checkout-wrapper {
+.payment-with-crypto__submit-block {
   margin: 36px 0px;
   padding: 40px;
   background: rgba(255, 255, 255, 0.05);
@@ -242,12 +241,12 @@
   color: #fff;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .complete-your-checkout-wrapper {
+  .payment-with-crypto__submit-block {
     margin: 24px 0px;
     padding: 20px;
   }
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .title {
+.payment-with-crypto__submit-block .submit-block__header-title {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -257,12 +256,12 @@
   color: #fff;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .complete-your-checkout-wrapper .title {
+  .payment-with-crypto__submit-block .submit-block__header-title {
     font-size: 16px;
     line-height: 28px;
   }
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .description {
+.payment-with-crypto__submit-block .submit-block__header-content {
   margin: 0;
   padding: 0;
   font-style: normal;
@@ -273,12 +272,16 @@
   margin: 8px 0px 16px;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .complete-your-checkout-wrapper .description {
+  .payment-with-crypto__submit-block .submit-block__header-content {
     font-size: 14px;
     line-height: 21px;
   }
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .input-text {
+.payment-with-crypto__submit-block .submit-block__body {
+  display: flex;
+  flex-direction: column;
+}
+.payment-with-crypto__submit-block .submit-block__body-input-text {
   display: block;
   width: 100%;
   outline: none;
@@ -296,31 +299,31 @@
   /* Gray:600 */
   color: #fff;
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .input-text::placeholder {
+.payment-with-crypto__submit-block .submit-block__body-input-text::placeholder {
   color: #718096;
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .input-text:focus {
+.payment-with-crypto__submit-block .submit-block__body-input-text:focus {
   outline: none;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .complete-your-checkout-wrapper .input-text {
+  .payment-with-crypto__submit-block .submit-block__body-input-text {
     padding: 6px 8px;
   }
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .input-file-wrapper {
+.payment-with-crypto__submit-block .submit-block__body-input-file {
   margin-top: 16px;
   margin-bottom: 8px;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .complete-your-checkout-wrapper .input-file-wrapper {
+  .payment-with-crypto__submit-block .submit-block__body-input-file {
     margin-bottom: 16px;
   }
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .input-file-wrapper input[type=file] {
+.payment-with-crypto__submit-block .submit-block__body-input-file input[type=file] {
   display: none;
 }
-.page-payment-wrapper .complete-your-checkout-wrapper .input-file-wrapper .custom-file-upload {
-  border: 1px solid #F91E4E;
+.payment-with-crypto__submit-block .submit-block__body-input-file .input-file-label {
+  border: 1px solid #f91e4e;
   border-radius: 8px;
   display: inline-block;
   padding: 10px 30px;
@@ -331,27 +334,27 @@
   line-height: 24px;
   /* identical to box height */
   text-align: center;
-  color: #F91E4E;
+  color: #f91e4e;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .complete-your-checkout-wrapper .input-file-wrapper .custom-file-upload {
+  .payment-with-crypto__submit-block .submit-block__body-input-file .input-file-label {
     padding: 6px 24px;
   }
 }
-.page-payment-wrapper .submit-wrapper {
+.payment-with-crypto__submit-block .submit-block__footer {
   display: flex;
   justify-content: flex-end;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .submit-wrapper {
+  .payment-with-crypto__submit-block .submit-block__footer {
     justify-content: center;
   }
 }
-.page-payment-wrapper .submit-wrapper .btn-submit {
+.payment-with-crypto__submit-block .submit-block__footer-btn {
   min-width: 200px;
   padding: 10px 0px;
   text-align: center;
-  background: #F91E4E;
+  background: #f91e4e;
   border-radius: 8px;
   border: none;
   outline: none;
@@ -363,11 +366,11 @@
   color: #ffffff;
   cursor: pointer;
 }
-.page-payment-wrapper .submit-wrapper .btn-submit:focus {
+.payment-with-crypto__submit-block .submit-block__footer-btn:focus {
   outline: none;
 }
 @media only screen and (max-width: 991px) {
-  .page-payment-wrapper .submit-wrapper .btn-submit {
+  .payment-with-crypto__submit-block .submit-block__footer-btn {
     padding: 6px 0px;
   }
 }

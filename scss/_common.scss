@@ -823,7 +823,8 @@ a {
 }
 
 .hot-match {
-  .club-name-txt, .score-match {
+  .club-name-txt,
+  .score-match {
     color: #ffd533 !important;
   }
 }
@@ -832,12 +833,12 @@ a {
   background-color: #1e293b;
   border-bottom: 1px solid #334155;
   padding: 10px 16px;
-   @include mq(max_md) {
-      padding: 0;
-      flex-direction: column;
-      border-bottom: none;
-      margin-bottom: 10px;
-    }
+  @include mq(max_md) {
+    padding: 0;
+    flex-direction: column;
+    border-bottom: none;
+    margin-bottom: 10px;
+  }
 
   &:hover {
     background-color: #293445;
@@ -943,20 +944,20 @@ a {
           max-width: 80px;
         }
 
-         @media (max-width: 900px) {
-          max-width: 150px
+        @media (max-width: 900px) {
+          max-width: 150px;
         }
-          @media (max-width: 700px) {
-          max-width: 150px
+        @media (max-width: 700px) {
+          max-width: 150px;
         }
-         @media (max-width: 600px) {
+        @media (max-width: 600px) {
           max-width: 100px;
         }
-          @media (max-width: 500px) {
+        @media (max-width: 500px) {
           max-width: 80px;
         }
 
-         @media (max-width: 350px) {
+        @media (max-width: 350px) {
           max-width: 60px;
         }
       }
@@ -1365,7 +1366,6 @@ a {
     }
   }
   .media-box-wrapper {
-
   }
   .view-match-media-wrapper {
     width: 100%;
@@ -1949,6 +1949,43 @@ a {
         align-items: flex-start;
         padding-left: 16px;
       }
+    }
+  }
+}
+
+.verify-email-block {
+  &__wrapper {
+    margin: 24px 0px;
+
+    @include mq(max_md) {
+      margin-bottom: 16px 0px;
+    }
+  }
+  &__content {
+    background: #1e293b;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 14px;
+  }
+
+  &__description {
+    color: #f59e0b;
+    margin: 0px 8px 0px 14px;
+    font-size: 14px;
+
+    @include mq(max_md) {
+      font-size: 13px;
+    }
+  }
+  &__btn {
+    text-transform: uppercase;
+    color: #10b981;
+    font-weight: bold;;
+    font-size: 14px;
+    @include mq(max_md) {
+      font-size: 13px;
     }
   }
 }

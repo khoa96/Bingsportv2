@@ -843,7 +843,8 @@ a {
   height: auto;
 }
 
-.hot-match .club-name-txt, .hot-match .score-match {
+.hot-match .club-name-txt,
+.hot-match .score-match {
   color: #ffd533 !important;
 }
 
@@ -1918,6 +1919,44 @@ a {
 .list-club-of-match-block-wrapper .list-club-of-match-item:last-child .club-info-detail-wrapper {
   align-items: flex-start;
   padding-left: 16px;
+}
+
+.verify-email-block__wrapper {
+  margin: 24px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .verify-email-block__wrapper {
+    margin-bottom: 16px 0px;
+  }
+}
+.verify-email-block__content {
+  background: #1e293b;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 14px;
+}
+.verify-email-block__description {
+  color: #f59e0b;
+  margin: 0px 8px 0px 14px;
+  font-size: 14px;
+}
+@media only screen and (max-width: 991px) {
+  .verify-email-block__description {
+    font-size: 13px;
+  }
+}
+.verify-email-block__btn {
+  text-transform: uppercase;
+  color: #10b981;
+  font-weight: bold;
+  font-size: 14px;
+}
+@media only screen and (max-width: 991px) {
+  .verify-email-block__btn {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
